@@ -2,13 +2,7 @@ import Reveal from './Reveal.jsx'
 
 export default function About() {
   return (
-    <section 
-      className="relative w-full overflow-hidden bg-[#0B1B30] pb-24 lg:pb-32 px-6"
-      style={{
-        backgroundImage: 'radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px)',
-        backgroundSize: '20px 20px',
-      }}
-    >
+    <section className="relative w-full overflow-hidden pb-24 lg:pb-32 px-6">
       <div className="relative mx-auto max-w-[1200px]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           
@@ -47,10 +41,10 @@ export default function About() {
             
             <Reveal variant="right" delay={200} className="space-y-6 text-[15px] leading-relaxed text-gray-300 font-sans">
               <p>
-                We are your go-to garrison for reliable plumbing, heating, and cooling defense in Northern Utah. We specialize in stopping failures before they breach — expert maintenance, repair, and installation for the systems your home depends on.
+                We are your go-to garrison for reliable plumbing, heating, and cooling defense in Northern Utah. We specialize in stopping failures before they breach. Expert maintenance, repair, and installation for the systems your home depends on.
               </p>
               <p>
-                Built on integrity, professionalism, and proactive care, our craft protects every home we touch — from a minor leak to a full HVAC overhaul — through every season.
+                Built on integrity, professionalism, and proactive care, our craft protects every home we touch, from a minor leak to a full HVAC overhaul, through every season.
               </p>
               <p>
                 When you choose Preventive, you're not just hiring a service. You're enlisting a guard committed to your home's long-term endurance.

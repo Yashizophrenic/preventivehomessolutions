@@ -20,7 +20,7 @@ export default function ScrollButton() {
   return (
     <a
       href="#scheduling"
-      className={`fixed bottom-5 left-5 z-50 animate-float rounded-full bg-phsBlue px-6 py-3 text-sm font-bold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:bg-blue-600 hover:shadow-xl active:scale-95 ${
+      className={`fixed bottom-5 left-5 z-50 animate-float rounded-none bg-phsBlue px-6 py-3 text-sm font-bold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:bg-blue-600 hover:shadow-xl active:scale-95 ${
         visible ? 'pointer-events-auto opacity-100' : 'pointer-events-none opacity-0'
       }`}
     >

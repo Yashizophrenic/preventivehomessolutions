@@ -2,13 +2,7 @@ import Reveal from './Reveal.jsx'
 
 export default function CtaBanner() {
   return (
-    <section 
-      className="relative w-full overflow-hidden bg-[#0B1B30] py-20 lg:py-24"
-      style={{
-        backgroundImage: 'radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px)',
-        backgroundSize: '20px 20px',
-      }}
-    >
+    <section className="relative w-full overflow-hidden py-20 lg:py-24">
       {/* Content */}
       <div className="relative mx-auto flex max-w-[1000px] flex-col items-center px-6 text-center">
         

@@ -1,6 +1,7 @@
 import TopBar from './components/TopBar.jsx'
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
+import MarqueeBanner from './components/MarqueeBanner.jsx'
 import Services from './components/Services.jsx'
 import WhyChoose from './components/WhyChoose.jsx'
 import BeforeAfter from './components/BeforeAfter.jsx'
@@ -20,12 +21,22 @@ export default function App() {
       <TopBar />
       <Header />
       <Hero />
+      <MarqueeBanner />
       <Services />
       <WhyChoose />
       <BeforeAfter />
-      <CtaBanner />
-      <Process />
-      <About />
+      <div
+        className="relative bg-[#0B1B30]"
+        style={{
+          backgroundImage: 'radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px)',
+          backgroundSize: '20px 20px',
+          backgroundAttachment: 'fixed',
+        }}
+      >
+        <CtaBanner />
+        <Process />
+        <About />
+      </div>
       <Testimonials />
       <div className="h-6 w-full bg-phsNavy" />
       <AreasWeServe />

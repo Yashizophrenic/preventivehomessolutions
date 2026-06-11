@@ -92,9 +92,9 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3.5">
               <img
-                src="/preventive-home-solutions-logo-1-1-1536x772.jpg"
+                src="/logo.svg"
                 alt="Preventive Home Solutions"
-                className="h-14 w-auto rounded-xl shadow-lg border border-white/10"
+                className="h-40 w-auto"
               />
               <span className="font-display text-lg font-black tracking-[0.18em] leading-tight text-white uppercase">
                 PREVENTIVE<br />

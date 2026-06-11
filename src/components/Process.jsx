@@ -47,13 +47,7 @@ const steps = [
 
 export default function Process() {
   return (
-    <section 
-      className="relative bg-[#0B1B30] py-20 lg:py-28 px-6 border-t border-white/5"
-      style={{
-        backgroundImage: 'radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px)',
-        backgroundSize: '20px 20px',
-      }}
-    >
+    <section className="relative py-20 lg:py-28 px-6 border-t border-white/5">
       <div className="mx-auto max-w-[1200px]">
         
         {/* Heading block */}

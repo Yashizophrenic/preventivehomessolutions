@@ -13,9 +13,9 @@ export default {
         phsInk: '#16263d',
       },
       fontFamily: {
-        sans: ['Poppins', 'system-ui', 'Arial', 'sans-serif'],
-        display: ['Archivo', 'system-ui', 'Arial', 'sans-serif'],
-        mono: ['"Space Mono"', 'ui-monospace', 'monospace'],
+        sans: ['Strong', 'Poppins', 'system-ui', 'Arial', 'sans-serif'],
+        display: ['Strong', 'Archivo', 'system-ui', 'Arial', 'sans-serif'],
+        mono: ['Strong', '"Space Mono"', 'ui-monospace', 'monospace'],
       },
       keyframes: {
         marquee: {

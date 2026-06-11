@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { motion } from 'motion/react'
 import Reveal from './Reveal.jsx'
 import RotatingText from './RotatingText.jsx'
 
@@ -60,9 +61,9 @@ function BookingForm() {
   const [submitted, setSubmitted] = useState(false)
 
   const fieldClass =
-    'w-full rounded-md border border-phsInk/15 bg-white/70 px-4 py-3 text-sm text-phsInk placeholder:text-phsInk/40 outline-none transition-colors focus:border-phsInk focus:bg-white'
+    'w-full rounded-md border border-phsInk/15 bg-white/70 px-4 py-3 text-center text-sm text-phsInk placeholder:text-phsInk/40 outline-none transition-colors focus:border-phsInk focus:bg-white'
   const labelClass =
-    'mb-1.5 block font-mono text-[11px] font-bold uppercase tracking-[0.18em] text-phsInk/55'
+    'mb-1.5 block text-center font-mono text-[11px] font-bold uppercase tracking-[0.18em] text-phsInk/55'
 
   if (submitted) {
     return (
@@ -91,10 +92,10 @@ function BookingForm() {
 
   return (
     <form onSubmit={(e) => { e.preventDefault(); setSubmitted(true) }}>
-      <p className="font-mono text-xs font-bold uppercase tracking-[0.24em] text-phsOrange">
+      <p className="text-center font-mono text-xs font-bold uppercase tracking-[0.24em] text-phsOrange">
         Request Service
       </p>
-      <h2 className="mt-2 font-display text-2xl font-extrabold uppercase leading-tight tracking-tight text-phsInk">
+      <h2 className="mt-2 text-center font-display text-2xl font-extrabold uppercase leading-tight tracking-tight text-phsInk">
         Book Your Inspection
       </h2>
 
@@ -132,7 +133,7 @@ function BookingForm() {
 
         <button
           type="submit"
-          className="group inline-flex w-full items-center justify-center gap-2 rounded-md bg-phsOrange px-6 py-3.5 font-display text-sm font-bold uppercase tracking-[0.12em] text-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-phsOrangeDark hover:shadow-md active:translate-y-0"
+          className="group mx-auto mt-1 flex w-fit items-center justify-center gap-2 whitespace-nowrap rounded-md bg-phsOrange px-8 py-3 font-display text-sm font-bold uppercase tracking-[0.12em] text-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-phsOrangeDark hover:shadow-md active:translate-y-0"
         >
           Schedule Inspection
           <ArrowIcon className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
@@ -145,7 +146,7 @@ function BookingForm() {
 export default function Hero() {
   return (
     <section id="hero" className="relative w-full overflow-hidden bg-phsCream">
-      <div className="relative mx-auto grid max-w-[1500px] items-center gap-12 px-5 py-16 lg:grid-cols-2 lg:gap-12 lg:px-10 lg:py-24">
+      <div className="relative mx-auto grid max-w-[1500px] items-start gap-12 px-5 py-16 lg:grid-cols-2 lg:gap-12 lg:px-10 lg:py-24">
         {/* Left column */}
         <div>
           <Reveal
@@ -153,7 +154,7 @@ export default function Hero() {
             delay={100}
             className="font-mono text-xs font-bold uppercase tracking-[0.28em] text-phsOrange"
           >
-            Established Defense — Northern Utah
+            Established Defense · Northern Utah
           </Reveal>
 
           <Reveal
@@ -165,17 +166,22 @@ export default function Hero() {
             <span className="block whitespace-nowrap text-4xl sm:text-5xl lg:text-6xl">Heavy Duty</span>
             <span className="block whitespace-nowrap text-4xl sm:text-5xl lg:text-6xl">Home Service</span>
             {/* Third line: animated box, single line */}
-            <span className="rotate-oneline mt-4 flex w-fit max-w-full items-center overflow-hidden rounded-xl bg-phsOrange px-4 py-2.5 shadow-sm">
+            <motion.span
+              layout
+              transition={{ type: 'spring', damping: 30, stiffness: 200 }}
+              className="rotate-oneline mt-4 flex w-fit max-w-full items-center overflow-hidden rounded-xl bg-phsOrange px-4 py-2.5 shadow-sm"
+            >
               <RotatingText
                 texts={BOX_PHRASES}
                 rotationInterval={3200}
                 staggerDuration={0.01}
                 staggerFrom="last"
                 splitBy="characters"
+                animatePresenceMode="popLayout"
                 mainClassName="text-base font-bold normal-case tracking-normal text-white sm:text-lg lg:text-xl"
                 elementLevelClassName="will-change-transform"
               />
-            </span>
+            </motion.span>
           </Reveal>
 
           <Reveal
@@ -215,12 +221,37 @@ export default function Hero() {
               Rated · 200+ Reviews
             </span>
           </Reveal>
+
+          {/* Quote to fill empty space */}
+          <Reveal delay={800} className="mt-16 max-w-md">
+            <div className="flex flex-col gap-6">
+              <blockquote className="border-l-4 border-phsOrange pl-6 font-display italic text-phsInk/85">
+                <p className="text-xl leading-relaxed font-semibold">
+                  "Quick response, fast solutions, and efficient work you can always depend on."
+                </p>
+              </blockquote>
+            </div>
+          </Reveal>
         </div>
 
-        {/* Right column — booking form card */}
-        <Reveal variant="scale" delay={300} className="lg:justify-self-end">
-          <div className="w-full max-w-[460px] rounded-2xl border border-phsInk/10 bg-[#fbf6ec] p-6 shadow-[0_30px_60px_-25px_rgba(22,38,61,0.4)] sm:p-7">
-            <BookingForm />
+        {/* Right column — knight holding the shield, with the booking form on the shield face */}
+        <Reveal variant="scale" delay={300} className="relative w-full max-w-[680px] -translate-y-[40px] -translate-x-[40px] lg:justify-self-end lg:-mt-8 lg:-ml-12">
+          {/* Floor shadow beneath the knight */}
+          <div className="absolute -bottom-10 left-1/2 h-16 w-3/4 -translate-x-1/2 rounded-[100%] bg-black/30 blur-2xl" />
+          
+          <img
+            src="/soldier-form.svg"
+            alt="Armored knight holding a shield"
+            className="w-full h-auto select-none pointer-events-none relative z-10"
+          />
+          {/* Form overlaid on the shield face */}
+          <div
+            className="absolute z-20"
+            style={{ top: '25%', left: '34%', width: '53%' }}
+          >
+            <div style={{ transform: 'scale(0.85)', transformOrigin: 'top center' }}>
+              <BookingForm />
+            </div>
           </div>
         </Reveal>
       </div>

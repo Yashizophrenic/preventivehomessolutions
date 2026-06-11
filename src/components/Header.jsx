@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 
 const PHONE_DISPLAY = '(385) 453-9428'
 const PHONE_TEL = '3854539428'
-const LOGO_SRC = '/preventive-home-solutions-logo-1-1-1536x772.jpg'
+const LOGO_SRC = '/logo.svg'
 
 // TODO: replace these placeholders with the real lists provided by the client.
 const SERVICE_GROUPS = [
@@ -155,14 +155,14 @@ export default function Header() {
     >
       <div className="mx-auto flex max-w-[1500px] items-center justify-between gap-6 px-5 py-4 lg:px-10">
         {/* Logo */}
-        <a href="#" onMouseEnter={closeMenu} className="group flex items-center gap-3">
+        <a href="#" onMouseEnter={closeMenu} className="group flex items-center gap-3 bg-phsOrange/95 px-4 py-2 rounded-xl backdrop-blur transition-colors hover:bg-phsOrange">
           <img
             src={LOGO_SRC}
             alt="Preventive Home Solutions"
-            className="h-12 w-auto rounded-lg transition-transform duration-300 group-hover:scale-105"
+            className="h-[4.3rem] w-auto rounded-lg transition-transform duration-300 group-hover:scale-105"
           />
-          <span className="font-display text-xl font-extrabold tracking-[0.22em] text-phsInk">
-            PREVENTIVE
+          <span className="font-display text-xl font-extrabold tracking-[0.12em] text-white">
+            PREVENTIVE HOME SOLUTIONS
           </span>
         </a>
 
@@ -294,19 +294,18 @@ export default function Header() {
             filteredAreas.length === 0 ? (
               <p className="py-4 text-sm text-phsInk/40">No matches</p>
             ) : (
-              <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+              <div className="grid grid-cols-2 gap-4 pt-4 sm:grid-cols-3 lg:grid-cols-5 items-start">
                 {filteredAreas.map((item) => (
-                  <li key={item}>
-                    <a
-                      href="#areas-we-serve"
-                      onClick={closeMenu}
-                      className="block rounded-md border border-phsInk/10 px-4 py-3 text-sm font-medium text-phsInk/80 transition-colors hover:border-phsOrange/40 hover:bg-phsOrange/10 hover:text-phsInk"
-                    >
-                      {item}
-                    </a>
-                  </li>
+                  <a
+                    key={item}
+                    href="#areas-we-serve"
+                    onClick={closeMenu}
+                    className="block rounded-xl border border-phsInk/10 bg-white/60 px-4 py-3 shadow-sm flex flex-col justify-center min-h-[58px] text-[13px] font-bold text-phsInk/85 hover:border-phsOrange/30 hover:bg-white hover:text-phsOrange transition-all duration-300"
+                  >
+                    {item}
+                  </a>
                 ))}
-              </ul>
+              </div>
             )
           )}
         </div>

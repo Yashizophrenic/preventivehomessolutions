@@ -6,7 +6,7 @@ const servicesList = [
     description: 'Leak defense, repairs, repipes.',
     iconSrc: '/plumbing-removebg-preview.svg',
     photo: '/Pot Filler Faucet Install in Ogden.jpeg',
-    photoAlt: 'Pot filler faucet installation — real job photo',
+    photoAlt: 'Pot filler faucet installation, real job photo',
   },
   {
     title: 'HVAC',
@@ -20,7 +20,7 @@ const servicesList = [
     description: 'AC install, tune-ups, repair.',
     iconSrc: '/ac_conditioning-removebg-preview.svg',
     photo: '/AC installed 01.jpg',
-    photoAlt: 'AC unit installation — real job photo',
+    photoAlt: 'AC unit installation, real job photo',
   },
 ]
 
@@ -70,10 +70,10 @@ export default function Services() {
             {/* Service Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               {servicesList.map(({ title, description, iconSrc, photo, photoAlt }, i) => (
-                <Reveal key={title} delay={i * 100} variant="up">
+                <Reveal key={title} delay={i * 100} variant="up" className="h-full">
                   <a
                     href="#contact"
-                    className="group flex flex-col items-center text-center p-6 rounded-2xl border border-[#e6ded4] bg-white/50 hover:bg-white hover:shadow-xl hover:shadow-phsCream/25 transition-all duration-300 hover:-translate-y-1 relative z-10"
+                    className="group flex h-full flex-col items-center text-center p-6 rounded-2xl border border-[#e6ded4] bg-white/50 hover:bg-white hover:shadow-xl hover:shadow-phsCream/25 transition-all duration-300 hover:-translate-y-1 relative z-10"
                   >
                     {/* Icon */}
                     <img
@@ -81,15 +81,20 @@ export default function Services() {
                       alt={title}
                       className="h-16 w-16 sm:h-20 sm:w-20 object-contain mb-4 group-hover:scale-110 transition-transform duration-300"
                     />
-                    
+
                     {/* Text block */}
                     <h3 className="font-display font-bold text-phsNavy text-base sm:text-lg uppercase tracking-wider">
                       {title}
                     </h3>
 
-                    {/* Real work photo with frame (only for plumbing + HVAC) */}
+                    {/* Grey one-liner */}
+                    <p className="mt-2 text-sm leading-relaxed text-gray-500">
+                      {description}
+                    </p>
+
+                    {/* Real work photo with frame */}
                     {photo && (
-                      <div className="relative bg-white p-1.5 shadow-md mt-5 w-full border border-[#e6ded4]">
+                      <div className="relative bg-white p-1.5 shadow-md mt-auto pt-1.5 w-full border border-[#e6ded4]">
                         <span className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-phsOrange z-10" />
                         <span className="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-phsOrange z-10" />
                         <span className="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-phsOrange z-10" />

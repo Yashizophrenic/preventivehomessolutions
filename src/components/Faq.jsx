@@ -4,7 +4,7 @@ import Reveal from './Reveal.jsx'
 const faqs = [
   {
     q: 'Do you charge for estimates?',
-    a: "No. On-site estimates for plumbing, heating, and cooling work are free — you'll get upfront, fixed pricing before any work begins.",
+    a: "No. On-site estimates for plumbing, heating, and cooling work are free. You'll get upfront, fixed pricing before any work begins.",
   },
   {
     q: 'What areas do you cover?',
@@ -31,11 +31,11 @@ export default function Faq() {
     <section className="relative overflow-hidden bg-[#fbf7f0] py-20 lg:py-28 px-6">
       {/* Watermark logo */}
       <img
-        src="/preventive-home-solutions-logo-1-1-1536x772.jpg"
+        src="/logo.svg"
         alt=""
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 h-full w-full object-contain"
-        style={{ opacity: 0.05 }}
+        style={{ opacity: 0.35 }}
       />
       <div className="relative mx-auto max-w-[850px]">
         {/* Heading block */}

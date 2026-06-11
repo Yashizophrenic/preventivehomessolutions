@@ -28,7 +28,7 @@ export default function BeforeAfter() {
             <div className="relative">
               <img
                 src="/beforeandafterwaterheater.PNG"
-                alt="Water heater replacement — before and after by Preventive Home Solutions"
+                alt="Water heater replacement, before and after by Preventive Home Solutions"
                 className="w-full object-cover"
               />
               {/* Label overlay */}

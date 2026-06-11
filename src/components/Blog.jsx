@@ -4,7 +4,7 @@ const posts = [
   {
     category: 'PLUMBING',
     title: 'Emergency Plumbing Steps: What To Do Before The Technician Arrives',
-    excerpt: 'Water on the floor can turn a normal evening into a fast-moving problem. The good news — a few quick moves protect your home.',
+    excerpt: 'Water on the floor can turn a normal evening into a fast-moving problem. The good news: a few quick moves protect your home.',
     date: 'JANUARY 17, 2026',
   },
   {
@@ -16,7 +16,7 @@ const posts = [
   {
     category: 'HVAC',
     title: 'SEER2 And 2026 HVAC Efficiency Standards Explained For Utah Homeowners',
-    excerpt: "Heating and cooling efficiency got a little harder to read in the last couple of years — here's the plain-English version.",
+    excerpt: "Heating and cooling efficiency got a little harder to read in the last couple of years. Here's the plain-English version.",
     date: 'DECEMBER 29, 2025',
   },
 ]

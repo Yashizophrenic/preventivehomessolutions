@@ -2,16 +2,16 @@ import { useState } from 'react'
 import Reveal from './Reveal.jsx'
 
 const citiesList = [
-  { name: 'Ogden', highlighted: false },
-  { name: 'West Point', highlighted: false },
-  { name: 'Syracuse', highlighted: false },
-  { name: 'Layton', highlighted: false },
-  { name: 'Farmington', highlighted: false },
-  { name: 'Clinton', highlighted: true },
-  { name: 'Roy', highlighted: false },
-  { name: 'Clearfield', highlighted: false },
-  { name: 'Riverdale', highlighted: false },
-  { name: 'Brigham City', highlighted: false },
+  'Ogden',
+  'West Point',
+  'Syracuse',
+  'Layton',
+  'Farmington',
+  'Clinton',
+  'Roy',
+  'Clearfield',
+  'Riverdale',
+  'Brigham City',
 ]
 
 function PinIcon() {
@@ -24,7 +24,7 @@ function PinIcon() {
 }
 
 export default function AreasWeServe() {
-  const [activeCity, setActiveCity] = useState(null)
+  const [activeCity, setActiveCity] = useState('')
 
   return (
     <section 
@@ -50,16 +50,14 @@ export default function AreasWeServe() {
               {/* Cities Grid */}
               <div className="grid grid-cols-2 gap-3">
                 {citiesList.map((city) => {
-                  const isActive = activeCity?.name === city.name
+                  const isActive = activeCity === city
                   return (
                     <div
-                      key={city.name}
-                      onClick={() => setActiveCity(isActive ? null : city)}
+                      key={city}
+                      onClick={() => setActiveCity(isActive ? '' : city)}
                       className={`flex items-center gap-3 p-4 rounded-xl border transition-all duration-300 hover:bg-gray-50 hover:shadow-sm cursor-pointer select-none ${
-                        isActive 
-                          ? 'border-phsOrange bg-phsOrange/5 shadow-sm ring-1 ring-phsOrange/20' 
-                          : city.highlighted 
-                          ? 'border-phsOrange/40 bg-gray-50 shadow-sm' 
+                        isActive
+                          ? 'border-phsOrange bg-phsOrange/5 shadow-sm ring-1 ring-phsOrange/20'
                           : 'border-gray-200 bg-white'
                       }`}
                     >
@@ -67,7 +65,7 @@ export default function AreasWeServe() {
                         <PinIcon />
                       </span>
                       <span className={`font-mono text-xs sm:text-[11px] font-bold tracking-[0.15em] uppercase transition-colors duration-300 ${isActive ? 'text-phsOrange' : 'text-phsInk'}`}>
-                        {city.name}
+                        {city}
                       </span>
                     </div>
                   )
@@ -96,16 +94,25 @@ export default function AreasWeServe() {
               </svg>
 
               {/* Embedded Google Maps frame */}
-              <div className="w-full h-[65%] relative overflow-hidden mb-6 rounded-t-[2.2rem] border-b border-white/5">
+              <div className="w-full h-[65%] relative overflow-hidden mb-6 rounded-t-[2.2rem] border-b border-white/10">
                 <iframe
-                  key={activeCity ? activeCity.name : 'default'}
+                  key={activeCity || 'default'}
                   title="Northern Utah Service Map"
-                  src={activeCity ? `https://www.google.com/maps?q=${activeCity.name},+UT&z=13&output=embed` : `https://www.google.com/maps?q=Clearfield,+UT&z=9&output=embed`}
+                  src={
+                    activeCity
+                      ? `https://www.google.com/maps?q=${encodeURIComponent(activeCity)},+UT&z=13&output=embed`
+                      : `https://www.google.com/maps?q=Clearfield,+UT&z=9&output=embed`
+                  }
                   className="absolute inset-0 w-full h-full border-0 animate-map-zoom"
+                  style={{ filter: 'grayscale(0.15) contrast(1.02) brightness(1.05) saturate(0.95)' }}
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                   allowFullScreen
                 />
+                {/* Theme tint overlays — keep map readable while matching site palette */}
+                <div className="pointer-events-none absolute inset-0 bg-phsNavy/10 mix-blend-multiply" />
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-phsNavy/20" />
+                <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-phsOrange/20" />
               </div>
 
               {/* Title Section (Lower part of card) */}

@@ -75,11 +75,13 @@ export default function WhyChoose() {
         
         {/* Trust Badges Row */}
         <Reveal variant="scale" className="flex items-center justify-center mb-16">
-          <img
-            src="/badges.png"
-            alt="Trust Badges"
-            className="h-32 sm:h-40 md:h-48 lg:h-56 w-auto object-contain transition-transform duration-300 hover:scale-[1.02]"
-          />
+          <div className="rounded-3xl bg-white px-8 py-6">
+            <img
+              src="/badges.png"
+              alt="Trust Badges"
+              className="h-44 sm:h-52 md:h-64 lg:h-72 w-auto object-contain transition-transform duration-300 hover:scale-[1.02]"
+            />
+          </div>
         </Reveal>
 
         {/* Heading Block */}
