@@ -48,10 +48,13 @@ export default function ContactForm() {
               {/* Small details */}
               <div className="mt-8 space-y-2 font-sans text-xs text-gray-500 leading-relaxed">
                 <p className="flex flex-wrap gap-x-1">
+<<<<<<< HEAD
                   <span className="font-semibold text-phsInk">Hours:</span>
                   <span className="text-phsOrange/90">Mon – Fri 7AM – 8PM | Sat 7AM – 7PM | Sun 7AM – 6PM</span>
                 </p>
                 <p className="flex flex-wrap gap-x-1">
+=======
+>>>>>>> 586b25297a4c5b1201b9510cd6f45178c2c70b8c
                   <span className="font-semibold text-phsInk">Areas:</span>
                   <span className="text-phsOrange/90">Ogden, Syracuse, Layton, Clearfield, Farmington, Clinton &amp; more</span>
                 </p>
@@ -128,6 +131,7 @@ export default function ContactForm() {
                       Request Free Quote
                     </button>
 
+<<<<<<< HEAD
                     {/* Trust line */}
                     <div className="flex items-center justify-center gap-2 pt-1 text-xs text-gray-500 font-sans">
                       <svg viewBox="0 0 24 24" fill="none" stroke="#f3741b" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
@@ -136,6 +140,8 @@ export default function ContactForm() {
                       </svg>
                       <span>35+ years serving Northern Utah</span>
                     </div>
+=======
+>>>>>>> 586b25297a4c5b1201b9510cd6f45178c2c70b8c
                   </form>
                 )}
 

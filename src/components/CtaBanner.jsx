@@ -2,6 +2,7 @@ import Reveal from './Reveal.jsx'
 
 export default function CtaBanner() {
   return (
+<<<<<<< HEAD
     <section className="relative w-full overflow-hidden py-12 lg:py-24">
       {/* Content */}
       <div className="relative mx-auto flex max-w-[1000px] flex-col items-center px-6 text-center">
@@ -11,6 +12,17 @@ export default function CtaBanner() {
           Get in Touch
         </Reveal>
         
+=======
+    <section className="relative w-full py-12 lg:py-24">
+
+      <div className="relative z-10 mx-auto flex max-w-[1000px] flex-col items-center px-6 text-center">
+
+        {/* Tag */}
+        <Reveal as="p" className="text-xs sm:text-sm font-mono tracking-[0.25em] font-bold text-white/60 mb-4">
+          Get in Touch
+        </Reveal>
+
+>>>>>>> 586b25297a4c5b1201b9510cd6f45178c2c70b8c
         {/* Heading */}
         <Reveal
           as="h2"
@@ -19,6 +31,7 @@ export default function CtaBanner() {
         >
           Certified Pros.<br />Homes Built to Last.
         </Reveal>
+<<<<<<< HEAD
         
         {/* Paragraph */}
         <Reveal 
@@ -28,6 +41,17 @@ export default function CtaBanner() {
           Let our warrior-grade specialists enhance your home's efficiency and comfort.
         </Reveal>
         
+=======
+
+        {/* Paragraph */}
+        <Reveal
+          delay={200}
+          className="text-[15px] sm:text-base text-white/75 font-sans max-w-xl mx-auto leading-relaxed mb-8"
+        >
+          Let our warrior-grade specialists enhance your home's efficiency and comfort.
+        </Reveal>
+
+>>>>>>> 586b25297a4c5b1201b9510cd6f45178c2c70b8c
         {/* CTA Button */}
         <Reveal delay={300}>
           <a

@@ -80,7 +80,11 @@ export default function WhyChoose() {
             <img
               src="/badges.png"
               alt="Trust Badges"
+<<<<<<< HEAD
               className="h-44 sm:h-52 md:h-64 lg:h-72 w-auto object-contain transition-transform duration-300 hover:scale-[1.02]"
+=======
+              className="h-52 sm:h-64 md:h-80 lg:h-[346px] w-auto object-contain scale-x-110 transition-transform duration-300 hover:scale-x-[1.12] hover:scale-y-[1.02]"
+>>>>>>> 586b25297a4c5b1201b9510cd6f45178c2c70b8c
             />
           </div>
         </Reveal>
