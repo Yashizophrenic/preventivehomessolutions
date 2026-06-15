@@ -299,14 +299,12 @@ export default function BeforeAfter() {
                         <img
                           src="/beforeandafterwaterheater.PNG"
                           alt="Water heater replacement before and after"
+                          className="absolute top-0 left-0 w-full h-[115%] object-cover object-top"
                         />
                         {/* Static Label Overlay inside card */}
-                        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-phsInk/90 via-phsInk/40 to-transparent p-5">
-                          <p className="font-mono text-[9px] font-bold tracking-[0.25em] text-phsOrange mb-0.5">
+                        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-phsInk/90 via-phsInk/40 to-transparent p-5 z-10">
+                          <p className="font-mono text-[9px] font-bold tracking-[0.25em] text-white">
                             Water Heater Replacement
-                          </p>
-                          <p className="font-display font-bold text-white text-xs sm:text-sm tracking-wide">
-                            Same-Day Install · Ogden, UT
                           </p>
                         </div>
                       </div>
