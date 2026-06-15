@@ -314,53 +314,139 @@ export default function Header() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="animate-slide-down max-h-[80vh] overflow-y-auto border-t border-phsSky/10 bg-phsCream px-5 py-4 lg:hidden">
-          <nav className="flex flex-col gap-4">
-            <div>
-              <p className="mb-1 font-mono text-[11px] font-bold tracking-[0.2em] text-phsInk/45">
-                Services
+        <div className="animate-slide-down max-h-[80vh] overflow-y-auto border-t border-phsSky/10 bg-phsCream px-5 py-6 lg:hidden">
+          <nav className="flex flex-col gap-6">
+            {/* Emergency Services */}
+            <a 
+              href="#emergency" 
+              onClick={() => setOpen(false)} 
+              className="flex items-center justify-center gap-2 rounded-full bg-red-50 px-4 py-3 text-[15px] font-medium text-red-600 transition-colors hover:bg-red-100"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+              </svg>
+              Emergency services
+            </a>
+
+            {/* HVAC Section */}
+            <div className="pt-2 border-t border-phsSky/10">
+              <p className="mb-4 flex items-center gap-2 font-mono text-[11px] font-bold tracking-[0.2em] text-phsInk/45 uppercase">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
+                  <path d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2" />
+                </svg>
+                HVAC
               </p>
-              <div className="flex flex-wrap gap-1.5">
-                {SERVICES.map((s) => (
-                  <a key={s} href="#services" onClick={() => setOpen(false)} className="rounded-md bg-phsSky/5 px-3 py-1.5 text-sm font-medium text-phsInk/80">
-                    {s}
-                  </a>
-                ))}
+              
+              <div className="flex flex-col gap-5">
+                <div>
+                  <p className="mb-2 text-[13px] font-bold text-phsInk/70">Air conditioning</p>
+                  <div className="flex flex-wrap gap-2">
+                    {SERVICE_GROUPS.find(g => g.title === 'Cooling')?.items.map(item => (
+                      <a key={item} href={`#${item.toLowerCase().replace(/\s+/g, '-')}`} onClick={() => setOpen(false)} className="rounded-full bg-phsSky/5 px-4 py-2 text-[14px] font-medium text-phsInk/80 hover:bg-phsSky/15 transition-colors">
+                        {item}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <p className="mb-2 text-[13px] font-bold text-phsInk/70">Heating</p>
+                  <div className="flex flex-wrap gap-2">
+                    {SERVICE_GROUPS.find(g => g.title === 'Heating')?.items.map(item => (
+                      <a key={item} href={`#${item.toLowerCase().replace(/\s+/g, '-')}`} onClick={() => setOpen(false)} className="rounded-full bg-phsSky/5 px-4 py-2 text-[14px] font-medium text-phsInk/80 hover:bg-phsSky/15 transition-colors">
+                        {item}
+                      </a>
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
-            <div>
-              <p className="mb-1 font-mono text-[11px] font-bold tracking-[0.2em] text-phsInk/45">
-                Areas We Serve
+
+            {/* Plumbing Section */}
+            <div className="pt-6 border-t border-phsSky/10">
+              <p className="mb-4 flex items-center gap-2 font-mono text-[11px] font-bold tracking-[0.2em] text-phsInk/45 uppercase">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
+                  <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+                </svg>
+                PLUMBING
               </p>
-              <div className="flex flex-wrap gap-1.5">
+              
+              <div className="flex flex-col gap-5">
+                <div>
+                  <p className="mb-2 text-[13px] font-bold text-phsInk/70">Water heaters</p>
+                  <div className="flex flex-wrap gap-2">
+                    {SERVICE_GROUPS.find(g => g.title === 'Water Heaters')?.items.map(item => (
+                      <a key={item} href={`#${item.toLowerCase().replace(/\s+/g, '-')}`} onClick={() => setOpen(false)} className="rounded-full bg-phsSky/5 px-4 py-2 text-[14px] font-medium text-phsInk/80 hover:bg-phsSky/15 transition-colors">
+                        {item}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <p className="mb-2 text-[13px] font-bold text-phsInk/70">Drains & sewers</p>
+                  <div className="flex flex-wrap gap-2">
+                    {SERVICE_GROUPS.find(g => g.title === 'Drain & Sewer')?.items.map(item => (
+                      <a key={item} href={`#${item.toLowerCase().replace(/\s+/g, '-')}`} onClick={() => setOpen(false)} className="rounded-full bg-phsSky/5 px-4 py-2 text-[14px] font-medium text-phsInk/80 hover:bg-phsSky/15 transition-colors">
+                        {item}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <p className="mb-2 text-[13px] font-bold text-phsInk/70">Fixtures & water</p>
+                  <div className="flex flex-wrap gap-2">
+                    {SERVICE_GROUPS.find(g => g.title === 'Plumbing')?.items.filter(item => item !== 'Emergency Services').map(item => (
+                      <a key={item} href={`#${item.toLowerCase().replace(/\s+/g, '-')}`} onClick={() => setOpen(false)} className="rounded-full bg-phsSky/5 px-4 py-2 text-[14px] font-medium text-phsInk/80 hover:bg-phsSky/15 transition-colors">
+                        {item}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Areas We Serve Section */}
+            <div className="pt-6 border-t border-phsSky/10">
+              <p className="mb-3 flex items-center gap-2 font-mono text-[11px] font-bold tracking-[0.2em] text-phsInk/45 uppercase">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                AREAS WE SERVE
+              </p>
+              <div className="flex flex-wrap gap-2">
                 {SERVICE_AREAS.map((s) => (
-                  <a key={s} href="#areas-we-serve" onClick={() => setOpen(false)} className="rounded-md bg-phsSky/5 px-3 py-1.5 text-sm font-medium text-phsInk/80">
+                  <a key={s} href="#areas-we-serve" onClick={() => setOpen(false)} className="rounded-full border border-phsSky/20 px-4 py-2 text-[14px] font-medium text-phsInk/80 hover:border-phsSky/40 hover:bg-phsSky/5 transition-colors">
                     {s}
                   </a>
                 ))}
               </div>
             </div>
 
-            <a href="#about" onClick={() => setOpen(false)} className="font-sans text-[15px] font-semibold text-phsInk/80">
-              About Us
-            </a>
-            <a href="#blog" onClick={() => setOpen(false)} className="font-sans text-[15px] font-semibold text-phsInk/80">
-              Blog
-            </a>
-            <a
-              href={`tel:${PHONE_TEL}`}
-              className="inline-flex items-center justify-center gap-2 rounded-md border border-phsSky/20 px-4 py-3 font-mono text-sm font-bold text-phsInk"
-            >
-              <PhoneIcon className="h-4 w-4" />
-              {PHONE_DISPLAY}
-            </a>
-            <a
-              href="#scheduling"
-              onClick={() => setOpen(false)}
-              className="rounded-md bg-phsOrange px-5 py-3 text-center font-sans text-sm font-bold text-white"
-            >
-              Get Free Quote
-            </a>
+            <div className="pt-6 border-t border-phsSky/10 flex flex-col gap-4">
+              <a href="#about" onClick={() => setOpen(false)} className="font-sans text-[15px] font-semibold text-phsInk/80">
+                About Us
+              </a>
+              <a href="#blog" onClick={() => setOpen(false)} className="font-sans text-[15px] font-semibold text-phsInk/80">
+                Blog
+              </a>
+              <a
+                href={`tel:${PHONE_TEL}`}
+                className="inline-flex items-center justify-center gap-2 rounded-md border border-phsSky/20 px-4 py-3 font-mono text-sm font-bold text-phsInk"
+              >
+                <PhoneIcon className="h-4 w-4" />
+                {PHONE_DISPLAY}
+              </a>
+              <a
+                href="#scheduling"
+                onClick={() => setOpen(false)}
+                className="rounded-md bg-phsOrange px-5 py-3 text-center font-sans text-sm font-bold text-white"
+              >
+                Get Free Quote
+              </a>
+            </div>
           </nav>
         </div>
       )}

@@ -223,7 +223,7 @@ export default function Hero() {
                 backgroundRepeat: 'no-repeat',
               }}
             />
-            <div className="relative z-10 inline-flex items-center gap-3.5 py-12 pl-6 pr-16 -translate-x-[35px] lg:py-14 lg:pl-10">
+            <div className="relative z-10 inline-flex items-center gap-3.5 py-12 pl-6 pr-16 -translate-x-[3px] lg:-translate-x-[35px] lg:py-14 lg:pl-10">
               <GoogleLogo className="h-6 sm:h-7 w-auto shrink-0" />
               <div className="flex text-lg sm:text-xl text-yellow-400 drop-shadow-sm">
                 {Array.from({ length: 5 }).map((_, i) => (
@@ -237,7 +237,7 @@ export default function Hero() {
           </Reveal>
 
           {/* Mobile-only Form Container Moved Here */}
-          <div className="block lg:hidden mt-10 mb-8 w-full max-w-sm rounded-2xl bg-[#EBE4D5]/60 shadow-lg border border-phsSky/10 p-6 sm:p-8 backdrop-blur-sm">
+          <div className="block lg:hidden mx-auto mt-10 mb-8 w-full max-w-sm rounded-2xl bg-[#EBE4D5]/60 shadow-lg border border-phsSky/10 p-6 sm:p-8 backdrop-blur-sm">
             <BookingForm />
           </div>
 
