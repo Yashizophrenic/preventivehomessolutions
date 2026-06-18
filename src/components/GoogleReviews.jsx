@@ -169,8 +169,8 @@ export default function GoogleReviews() {
       <div className="mb-8 flex flex-col items-center gap-2.5 text-center scale-110">
         <div className="flex items-center gap-2.5">
           <GoogleG className="h-6 w-6" />
-          <span className="font-display text-base font-bold tracking-wide text-phsNavy">
-            Reviews from Google
+          <span className="font-display text-base font-bold tracking-[0.18em] text-phsNavy">
+            REVIEWS
           </span>
           {isLive && (
             <span className="inline-flex items-center gap-1.5 rounded-full bg-green-50 px-2.5 py-0.5 text-xs font-bold text-green-600">
@@ -182,7 +182,7 @@ export default function GoogleReviews() {
             </span>
           )}
         </div>
-        <p className="text-sm font-mono tracking-[0.2em] text-gray-600">
+        <p className="text-base sm:text-lg font-mono font-bold tracking-[0.2em] text-phsNavy">
           REAL HOMEOWNERS · REAL RESULTS
         </p>
       </div>

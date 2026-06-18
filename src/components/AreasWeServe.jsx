@@ -55,7 +55,7 @@ export default function AreasWeServe() {
                     <div
                       key={city}
                       onClick={() => setActiveCity(isActive ? '' : city)}
-                      className={`group flex items-center gap-3 p-4 rounded-xl border cursor-pointer select-none transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.04] hover:border-phsOrange hover:bg-phsOrange hover:shadow-lg hover:shadow-phsOrange/40 ${
+                      className={`group flex items-center gap-3 p-4 rounded-xl border cursor-pointer select-none shadow-md shadow-phsNavy/10 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.04] hover:border-phsOrange hover:bg-phsOrange hover:shadow-lg hover:shadow-phsOrange/40 ${
                         isActive
                           ? 'border-phsOrange bg-phsOrange/5 shadow-sm ring-1 ring-phsOrange/20'
                           : 'border-gray-200 bg-white'

@@ -72,11 +72,10 @@ export default function Process() {
                 key={number}
                 variant="up"
                 delay={i * 100}
+                className="h-full"
               >
                 <div
-                  className={`group relative flex flex-col p-6 sm:p-8 rounded-3xl transition-all duration-300 hover:-translate-y-1 shadow-md hover:shadow-xl bg-[#FAF8F5] hover:bg-white border-2 ${
-                    isMiddle ? 'border-phsOrange' : 'border-[#e6ded4] hover:border-phsOrange/40'
-                  }`}
+                  className="group relative flex h-full flex-col p-6 sm:p-8 rounded-3xl transition-all duration-300 hover:-translate-y-1 shadow-md hover:shadow-xl bg-[#FAF8F5] hover:bg-white border-2 border-[#e6ded4] hover:border-phsOrange/40"
                 >
                   {/* Mascot peeking over the top edge of the highlighted card */}
                   {isMiddle && (

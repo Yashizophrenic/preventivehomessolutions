@@ -53,19 +53,19 @@ function AlarmSirenIcon() {
 
 const features = [
   {
-    title: 'Proactive Maintenance Plans',
+    title: 'Family-Owned & Local',
     Icon: ShieldCheckIcon,
-    description: 'Prevent costly repairs with customized maintenance services.',
+    description: "Not a national chain. We're a Northern Utah family-run company that treats your home like our own.",
   },
   {
-    title: 'Certified Technicians',
-    Icon: BadgeCheckIcon,
-    description: 'Our licensed plumbers team consists of highly skilled professionals.',
-  },
-  {
-    title: 'Emergency Services',
+    title: 'Fast & Reliable Response',
     Icon: AlarmSirenIcon,
-    description: "We're available after hours to same-day emergency service to keep your home safe.",
+    description: "When comfort can't wait, our team provides prompt service to get your home back up and running.",
+  },
+  {
+    title: 'Preventive Home Protection',
+    Icon: BadgeCheckIcon,
+    description: 'We help prevent breakdowns before they happen through inspections, maintenance plans, and proactive system care.',
   },
 ]
 
@@ -90,7 +90,7 @@ export default function WhyChoose() {
             <img
               src="/Group 13.png"
               alt="35+ Years of Experience"
-              className="h-[clamp(100px,35vw,208px)] sm:h-[320px] lg:h-[440px] w-auto object-contain transition-transform duration-300 hover:-translate-y-1.5"
+              className="h-[clamp(120px,42vw,250px)] sm:h-[384px] lg:h-[528px] w-auto object-contain transition-transform duration-300 hover:-translate-y-1.5"
             />
             <img
               src="/Group 14.png"
@@ -133,7 +133,7 @@ export default function WhyChoose() {
 
                   {/* Content */}
                   <div>
-                    <h3 className="font-display font-bold text-phsNavy text-lg sm:text-xl tracking-wide transition-colors duration-300 group-hover:text-phsOrange">
+                    <h3 className="font-sans font-bold text-phsNavy text-lg sm:text-xl tracking-wide transition-colors duration-300 group-hover:text-phsOrange">
                       {title}
                     </h3>
                     <p className="mt-1.5 text-sm sm:text-[15px] text-gray-500 font-sans leading-relaxed">

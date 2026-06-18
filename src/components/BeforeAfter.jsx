@@ -353,10 +353,10 @@ export default function BeforeAfter() {
                 <Reveal key={item.title} variant="right" delay={250 + idx * 70} className="flex gap-3.5 items-start">
                   <ShieldCheckIcon />
                   <div>
-                    <h4 className="font-display font-bold text-sm text-phsNavy leading-snug">
+                    <h4 className="font-sans font-bold text-base sm:text-lg text-phsNavy leading-snug">
                       {item.title}
                     </h4>
-                    <p className="text-[13px] text-gray-500 mt-0.5 leading-relaxed font-sans">
+                    <p className="text-sm sm:text-[15px] text-gray-500 mt-1 leading-relaxed font-sans">
                       {item.desc}
                     </p>
                   </div>
