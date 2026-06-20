@@ -95,7 +95,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3.5">
               <img
-                src="/logo.svg"
+                src="/main logo.png"
                 alt="Preventive Home Solutions"
                 className="h-40 w-auto"
               />

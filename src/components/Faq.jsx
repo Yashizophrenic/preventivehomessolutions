@@ -31,7 +31,7 @@ export default function Faq() {
     <section className="relative overflow-hidden bg-[#fbf7f0] py-12 lg:py-28 px-6">
       {/* Watermark — the header logo, enlarged and faded */}
       <img
-        src="/logo.svg"
+        src="/main logo.png"
         alt=""
         aria-hidden="true"
         className="pointer-events-none absolute left-1/2 top-1/2 h-[108%] w-auto max-w-none -translate-x-1/2 -translate-y-1/2 object-contain"
