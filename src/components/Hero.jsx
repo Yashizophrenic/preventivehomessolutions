@@ -66,11 +66,42 @@ function GoogleLogo({ className = '' }) {
 
 /** Compact booking form used in the hero spec card.
  *  On mobile (`mobile` prop) the Email field is omitted so the four core
- *  fields — name, phone, service, message — fit the shield without cropping. */
+ *  fields name, phone, service, message fit the shield without cropping. */
 function BookingForm({ mobile = false }) {
   const [submitted, setSubmitted] = useState(false)
+  const [submitting, setSubmitting] = useState(false)
+  const [error, setError] = useState(null)
   const [service, setService] = useState('')
   const [dropdownOpen, setDropdownOpen] = useState(false)
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    setSubmitting(true)
+    setError(null)
+    
+    const formData = new FormData(e.target)
+    formData.append('access_key', import.meta.env.VITE_WEB3FORMS_ACCESS_KEY || 'YOUR_WEB3FORMS_ACCESS_KEY_HERE')
+    formData.append('section', 'Received from Bookings section (Hero)')
+    formData.append('business_address', '688 S Main St, Layton, UT 84041, United States')
+    formData.append('subject', 'New Booking Request from Preventive Home Solutions')
+
+    try {
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData
+      })
+      const data = await res.json()
+      if (data.success) {
+        setSubmitted(true)
+      } else {
+        setError(data.message || 'Something went wrong')
+      }
+    } catch (err) {
+      setError('Network error, please try again.')
+    } finally {
+      setSubmitting(false)
+    }
+  }
 
   const fieldClass =
     'w-full rounded-md border border-phsSky/15 bg-white/70 px-4 py-3 text-center text-sm text-phsInk placeholder:text-phsInk/40 outline-none transition-colors focus:border-phsSky focus:bg-white'
@@ -103,7 +134,7 @@ function BookingForm({ mobile = false }) {
   }
 
   return (
-    <form onSubmit={(e) => { e.preventDefault(); setSubmitted(true) }}>
+    <form onSubmit={handleSubmit}>
       <p className="text-center font-mono max-lg:mt-[30px] max-lg:text-[12.6px] text-xs font-bold tracking-[0.24em] text-phsOrange">
         Request Service
       </p>
@@ -171,12 +202,14 @@ function BookingForm({ mobile = false }) {
           <textarea id="bf-message" name="message" rows={3} placeholder="Briefly describe the issue…" className={`${fieldClass} resize-none mx-auto block !w-[calc(100%-32px)]`} />
         </div>
 
+        {error && <p className="text-red-500 text-sm text-center font-bold">{error}</p>}
         <button
           type="submit"
-          className="cta-diag cta-diag-orange group mx-auto mt-1 flex w-fit items-center justify-center gap-2 whitespace-nowrap rounded-md bg-phsOrange px-[38.4px] py-[14.4px] max-lg:px-[28.14px] max-lg:py-[9.29px] font-sans text-[16.8px] max-lg:text-[15.91px] font-bold tracking-[0.12em] text-white shadow-sm hover:-translate-y-0.5 hover:shadow-md active:translate-y-0"
+          disabled={submitting}
+          className="cta-diag cta-diag-orange group mx-auto mt-1 flex w-fit items-center justify-center gap-2 whitespace-nowrap rounded-md bg-phsOrange px-[38.4px] py-[14.4px] max-lg:px-[28.14px] max-lg:py-[9.29px] font-sans text-[16.8px] max-lg:text-[15.91px] font-bold tracking-[0.12em] text-white shadow-sm hover:-translate-y-0.5 hover:shadow-md active:translate-y-0 disabled:opacity-70 disabled:cursor-not-allowed"
         >
-          Book Now
-          <ArrowIcon className="h-[19.2px] w-[19.2px] transition-transform duration-300 group-hover:translate-x-1" />
+          {submitting ? 'Sending...' : 'Book Now'}
+          {!submitting && <ArrowIcon className="h-[19.2px] w-[19.2px] transition-transform duration-300 group-hover:translate-x-1" />}
         </button>
       </div>
     </form>
@@ -288,7 +321,7 @@ export default function Hero() {
           </Reveal>
 
           <div className="relative mt-2 lg:mt-3 w-fit animate-ribbon-in">
-            {/* Flag ribbon behind the rating — bleeds to the left edge of the
+            {/* Flag ribbon behind the rating bleeds to the left edge of the
                 screen and ends just past the text. Absolute so it never affects
                 the rating's own layout. */}
             <div
@@ -367,7 +400,7 @@ export default function Hero() {
 
         </div>
 
-        {/* Right column — knight holding the shield, with the booking form on the shield face */}
+        {/* Right column knight holding the shield, with the booking form on the shield face */}
         <Reveal variant="scale" delay={300} className="relative w-full max-w-[625px] lg:-translate-y-[90px] lg:-translate-x-[70px] lg:justify-self-end lg:-mt-8 lg:-ml-12 mt-4 lg:mt-0">
 
           {/* Desktop-only Knight with Form overlaid */}

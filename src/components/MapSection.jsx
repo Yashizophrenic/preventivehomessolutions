@@ -14,7 +14,7 @@ export default function MapSection() {
           allowFullScreen
         />
 
-        {/* Branded control buttons (top-right) — matched to the site button system */}
+        {/* Branded control buttons (top-right) matched to the site button system */}
         <div className="absolute right-3 top-3 z-10 flex items-center gap-2 sm:right-5 sm:top-5">
           <a
             href="https://www.google.com/maps/dir/?api=1&destination=Clearfield,+UT"

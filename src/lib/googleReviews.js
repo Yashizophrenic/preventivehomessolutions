@@ -13,7 +13,7 @@
  *                               business profile (find it with Google's
  *                               "Place ID Finder").
  *
- * NOTE: Google's API returns at most 5 reviews per place — there is no API that
+ * NOTE: Google's API returns at most 5 reviews per place there is no API that
  * returns the full review history. We poll periodically so newly-surfaced
  * reviews show up without a page reload ("real time" within quota limits).
  */

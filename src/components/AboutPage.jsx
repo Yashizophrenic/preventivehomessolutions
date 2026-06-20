@@ -60,9 +60,9 @@ const SHOWCASE = [
 ]
 
 const VALUES = [
-  { icon: 'shield', title: 'Integrity First', text: 'Honest assessments and upfront, fixed pricing. No upsells, no surprises — just the work your home actually needs.' },
+  { icon: 'shield', title: 'Integrity First', text: 'Honest assessments and upfront, fixed pricing. No upsells, no surprises just the work your home actually needs.' },
   { icon: 'pulse', title: 'Proactive, Not Reactive', text: 'We stop failures before they breach. Preventive maintenance that catches small problems before they become emergencies.' },
-  { icon: 'badge', title: 'Certified Craft', text: 'Highly skilled, licensed and insured technicians who treat every home — and every homeowner — with respect.' },
+  { icon: 'badge', title: 'Certified Craft', text: 'Highly skilled, licensed and insured technicians who treat every home and every homeowner with respect.' },
   { icon: 'clock', title: 'Always On Call', text: 'Emergency and same-day availability, seven days a week, because water and weather do not keep business hours.' },
 ]
 
@@ -70,16 +70,16 @@ const PROMISES = [
   'Upfront, fixed pricing before any work begins',
   'Licensed, background-checked technicians',
   'Clean, respectful work in your home',
-  'Honest recommendations — repair or replace',
+  'Honest recommendations repair or replace',
   'Emergency & same-day service, 7 days a week',
   'Workmanship you can count on, season after season',
 ]
 
 export default function AboutPage() {
   useSeo({
-    title: 'About Us — Plumbing, Heating & Cooling in Northern Utah | Preventive Home Solutions',
+    title: 'About Us Plumbing, Heating & Cooling in Northern Utah | Preventive Home Solutions',
     description:
-      'Meet Preventive Home Solutions — the licensed crew defending Northern Utah homes with plumbing, heating and cooling. 35+ years of experience, proactive care, transparent pricing.',
+      'Meet Preventive Home Solutions the licensed crew defending Northern Utah homes with plumbing, heating and cooling. 35+ years of experience, proactive care, transparent pricing.',
     path: '/about-us',
     jsonLd: {
       '@context': 'https://schema.org',
@@ -93,7 +93,7 @@ export default function AboutPage() {
   return (
     <div className="relative min-h-screen bg-white">
       {/* Fixed, continuous light-blue animated backdrop. It is viewport-anchored,
-          so it stays in place while scrolling — only the transparent light-blue
+          so it stays in place while scrolling only the transparent light-blue
           sections (Stats, Get a Free Quote) reveal it; every other section is
           opaque and covers it. */}
       <div className="pointer-events-none fixed inset-0 z-0 bg-phsSky">
@@ -131,7 +131,7 @@ export default function AboutPage() {
 
               <Reveal as="p" delay={220} className="mt-6 max-w-xl text-[15px] leading-relaxed text-gray-600 sm:text-base">
                 Preventive Home Solutions is a Northern Utah crew built on a simple idea: defend homes before they fail.
-                Plumbing, heating, and cooling — one certified team, three trades, every season.
+                Plumbing, heating, and cooling one certified team, three trades, every season.
               </Reveal>
 
               <Reveal delay={300} className="mt-9 flex flex-col gap-4 sm:flex-row">
@@ -153,14 +153,14 @@ export default function AboutPage() {
             </div>
 
             {/* Right: swapping showcase of real jobs */}
-            <div className="relative h-[400px] sm:h-[460px] lg:h-[540px]">
+            <div className="relative mt-8 h-[clamp(360px,100vw,460px)] lg:mt-0 lg:h-[540px] w-full flex justify-center items-center">
               <CardSwap
-                width={340}
-                height={420}
-                cardDistance={48}
-                verticalDistance={52}
-                delay={1200}
-                skewAmount={5}
+                width="clamp(260px, 75vw, 340px)"
+                height="clamp(320px, 90vw, 420px)"
+                cardDistance={32}
+                verticalDistance={36}
+                delay={2600}
+                skewAmount={4}
                 pauseOnHover={false}
               >
                 {SHOWCASE.map((src) => (
@@ -177,21 +177,21 @@ export default function AboutPage() {
         <section className="bg-white py-16 px-6 lg:py-24">
           <div className="mx-auto grid max-w-[1100px] grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-16">
             <div className="lg:col-span-4">
-              <Reveal as="p" className="font-mono text-xs font-bold tracking-[0.25em] text-phsOrange">OUR MISSION</Reveal>
+              <Reveal as="p" className="font-sans text-xs font-bold tracking-[0.25em] text-phsOrange">OUR MISSION</Reveal>
               <Reveal as="h2" delay={100} className="mt-4 font-display text-3xl font-black leading-[1.05] tracking-tight text-phsNavy sm:text-4xl">
                 Stop the failure before it breaches.
               </Reveal>
             </div>
             <div className="lg:col-span-8">
               <Reveal className="border-l-4 border-phsOrange pl-6">
-                <p className="font-display text-xl font-bold leading-snug text-phsNavy sm:text-2xl">
+                <p className="font-sans text-xl font-bold leading-snug text-phsNavy sm:text-2xl">
                   We are your go-to garrison for reliable plumbing, heating, and cooling defense in Northern Utah.
                 </p>
               </Reveal>
               <Reveal delay={120} className="mt-6 space-y-4 text-[15px] leading-relaxed text-gray-600 sm:text-base">
                 <p>
                   Founded on the principles of integrity, professionalism, and proactive care, we exist to protect every
-                  home we touch — from a minor leak to a full HVAC overhaul. Whether it&rsquo;s a complex installation or a
+                  home we touch from a minor leak to a full HVAC overhaul. Whether it&rsquo;s a complex installation or a
                   routine tune-up, our team is here to make sure your home runs smoothly and efficiently, no matter the season.
                 </p>
                 <p>
@@ -200,8 +200,8 @@ export default function AboutPage() {
                 </p>
               </Reveal>
               <Reveal delay={200} className="mt-7">
-                <p className="font-display text-2xl text-phsNavy/80" style={{ fontStyle: 'italic' }}>
-                  — The Preventive Team
+                <p className="font-display text-2xl font-bold text-phsNavy/80">
+                  The Preventive Team
                 </p>
               </Reveal>
             </div>

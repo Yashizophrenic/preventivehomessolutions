@@ -26,13 +26,13 @@ export default function About() {
             <Reveal variant="left" className="relative w-full max-w-[440px]">
               {/* White frame with orange corner accents */}
               <div className="relative bg-white p-3 shadow-2xl w-2/3 mx-auto sm:w-1/2 lg:w-full lg:mx-0 lg:p-4">
-                {/* Orange corner — top left */}
+                {/* Orange corner top left */}
                 <span className="absolute top-0 left-0 w-8 h-8 border-t-4 border-l-4 border-phsOrange z-10" />
-                {/* Orange corner — top right */}
+                {/* Orange corner top right */}
                 <span className="absolute top-0 right-0 w-8 h-8 border-t-4 border-r-4 border-phsOrange z-10" />
-                {/* Orange corner — bottom left */}
+                {/* Orange corner bottom left */}
                 <span className="absolute bottom-0 left-0 w-8 h-8 border-b-4 border-l-4 border-phsOrange z-10" />
-                {/* Orange corner — bottom right */}
+                {/* Orange corner bottom right */}
                 <span className="absolute bottom-0 right-0 w-8 h-8 border-b-4 border-r-4 border-phsOrange z-10" />
                 <div className="relative aspect-[4/5] w-full overflow-hidden">
                   {CREW_SLIDES.map((src, i) => (

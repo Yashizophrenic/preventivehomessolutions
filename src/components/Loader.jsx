@@ -1,6 +1,6 @@
 import { useLoading } from '../loading.js'
 
-/** Orange shield with a white inner emblem — kept symmetric so the 3D flip
+/** Orange shield with a white inner emblem kept symmetric so the 3D flip
  *  reads correctly from both sides. Shared visual with the static loader in
  *  index.html so the hand-off after React mounts is seamless. */
 function ShieldMark() {

@@ -29,7 +29,7 @@ export default function Faq() {
 
   return (
     <section className="relative overflow-hidden bg-[#fbf7f0] py-12 lg:py-28 px-6">
-      {/* Watermark — the header logo, enlarged and faded */}
+      {/* Watermark the header logo, enlarged and faded */}
       <img
         src="/main logo.png"
         alt=""

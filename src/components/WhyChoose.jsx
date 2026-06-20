@@ -74,7 +74,7 @@ export default function WhyChoose() {
     <section className="bg-white py-12 lg:py-28 relative">
       <div className="mx-auto max-w-[1200px] px-6">
         
-        {/* Trust Badges Row — Angi · 35+ Years (center, larger) · BBB.
+        {/* Trust Badges Row Angi · 35+ Years (center, larger) · BBB.
             Breaks out wider than the 1200px column (capped at the viewport)
             so the three badges can grow and spread across the space. */}
         <div className="relative left-1/2 mb-16 w-[min(100vw,1500px)] -translate-x-1/2 -translate-y-[25px]">
@@ -101,7 +101,7 @@ export default function WhyChoose() {
         </div>
 
         {/* Two-column: heading on the left, full-width benefit rows on the
-            right — fills the space instead of leaving it empty. */}
+            right fills the space instead of leaving it empty. */}
         <div className="grid items-start gap-10 lg:grid-cols-2 lg:gap-20">
           {/* Heading Block */}
           <div className="lg:sticky lg:top-28">
@@ -116,7 +116,7 @@ export default function WhyChoose() {
             </Reveal>
           </div>
 
-          {/* Feature Rows — full-width horizontal rows: icon left, title +
+          {/* Feature Rows full-width horizontal rows: icon left, title +
               description stacked on the right. */}
           <div className="flex flex-col">
             {features.map(({ title, Icon, description }, i) => (

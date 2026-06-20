@@ -24,7 +24,7 @@ export const POST_CONTENT = {
     faqs: [
       {
         q: 'How do I find my main water shut-off valve?',
-        a: 'It is usually where the water line enters the home — often near the water meter, in a basement, crawlspace, garage, or an exterior box. Locate and test it now, before an emergency, so you know it actually turns.',
+        a: 'It is usually where the water line enters the home often near the water meter, in a basement, crawlspace, garage, or an exterior box. Locate and test it now, before an emergency, so you know it actually turns.',
       },
       {
         q: 'Should I use chemical drain cleaner during a backup?',
@@ -91,7 +91,7 @@ export const POST_CONTENT = {
 <p>When a drain backs up, the priority is preventing overflow and keeping more water out of the line. Stop running water at all fixtures connected to that drain. If it is a single sink, use a cup plunger and work in short, strong pushes with enough water to cover the rubber. If plunging does not restore flow, a hand auger can sometimes break up hair or soap buildup. Skip chemical drain cleaners.</p>
 
 <h3>Leaking water heater</h3>
-<p>Water around a water heater can point to anything from a loose connection to a failing tank. Turn off the cold water valve feeding the heater. Shut off power at the breaker for electric units, or close the gas shut-off valve for gas units. Place towels or a shallow pan around the base. Do not plug or cap the temperature and pressure relief valve — that valve is a safety device.</p>
+<p>Water around a water heater can point to anything from a loose connection to a failing tank. Turn off the cold water valve feeding the heater. Shut off power at the breaker for electric units, or close the gas shut-off valve for gas units. Place towels or a shallow pan around the base. Do not plug or cap the temperature and pressure relief valve that valve is a safety device.</p>
 
 <h2>A simple emergency kit that actually gets used</h2>
 <p>The best kit is small enough to grab in a hurry and complete enough to slow the situation down. Store it where you can reach it without walking through a flooded room.</p>
@@ -126,7 +126,7 @@ export const POST_CONTENT = {
 
 <h2>Reduce repeat emergencies with a few preventive habits</h2>
 <p>Emergencies often start as small warnings: a slow drip under a sink, a toilet that refills randomly, a drain that gurgles, or a water heater that leaves rust-colored stains near the base. Addressing those early is the simplest way to avoid midnight shut-offs. In cold weather, protect exposed piping in crawlspaces, garages, and exterior walls, and keep indoor temperatures steady during extreme cold.</p>
-<p>Preventive Home Solutions focuses on proactive maintenance across plumbing, heating, and cooling, with certified technicians, transparent pricing, and emergency and same-day availability. For homeowners who prefer fewer surprises, a maintenance plan can turn &ldquo;someday&rdquo; checks into a regular routine — catching weak valves, aging supply lines, and early water heater issues before they become urgent calls.</p>
+<p>Preventive Home Solutions focuses on proactive maintenance across plumbing, heating, and cooling, with certified technicians, transparent pricing, and emergency and same-day availability. For homeowners who prefer fewer surprises, a maintenance plan can turn &ldquo;someday&rdquo; checks into a regular routine catching weak valves, aging supply lines, and early water heater issues before they become urgent calls.</p>
 `,
   },
 
@@ -135,7 +135,7 @@ export const POST_CONTENT = {
     metaTitle:
       'Utah Inversions and Indoor Air Quality: Solutions That Actually Work | Preventive Home Solutions',
     metaDescription:
-      'Winter inversions trap pollution along the Wasatch Front. Learn which indoor air quality upgrades — filtration, ventilation, humidity control — actually protect your home.',
+      'Winter inversions trap pollution along the Wasatch Front. Learn which indoor air quality upgrades filtration, ventilation, humidity control actually protect your home.',
     keywords: [
       'Utah inversion indoor air quality',
       'Wasatch Front air pollution home',
@@ -163,12 +163,12 @@ export const POST_CONTENT = {
       },
     ],
     body: `
-<p>Winter along the Wasatch Front can feel a little upside down. You look toward the mountains and lose them in haze. During an inversion, a layer of warm air traps cold, polluted air against the valley floor — and that pollution does not politely stay outside. It works its way into your home, where most of us spend the majority of a Utah winter.</p>
+<p>Winter along the Wasatch Front can feel a little upside down. You look toward the mountains and lose them in haze. During an inversion, a layer of warm air traps cold, polluted air against the valley floor and that pollution does not politely stay outside. It works its way into your home, where most of us spend the majority of a Utah winter.</p>
 <p>The good news: indoor air quality is one of the few winter problems you can meaningfully control. With the right combination of filtration, ventilation, and humidity, you can keep the air inside noticeably cleaner than the air outside, even on the worst red-alert days.</p>
 
 <h2>Why inversions make indoor air worse</h2>
 <p>An inversion is a weather pattern, not a one-time event. Cold, dense air settles in the valley and a warmer layer caps it like a lid. Vehicle exhaust, wood smoke, and industrial emissions have nowhere to go, so fine particulate matter (PM2.5) builds up day after day until a storm finally clears it out.</p>
-<p>PM2.5 is the concern because it is small enough to reach deep into the lungs. It slips through gaps around windows and doors and rides in on the normal air exchange every home has. For anyone with asthma, allergies, or heart and lung conditions — and for kids and older adults — those particles add up over a long inversion.</p>
+<p>PM2.5 is the concern because it is small enough to reach deep into the lungs. It slips through gaps around windows and doors and rides in on the normal air exchange every home has. For anyone with asthma, allergies, or heart and lung conditions and for kids and older adults those particles add up over a long inversion.</p>
 
 <h2>The three levers that actually move indoor air quality</h2>
 <p>It is easy to spend money on the wrong fix. These are the three areas that make the biggest difference, in order of impact for most Northern Utah homes.</p>
@@ -192,11 +192,11 @@ export const POST_CONTENT = {
 <h3>Consider a whole-home air cleaner</h3>
 <p>For inversion season, a media air cleaner or an electronic air cleaner mounted on the HVAC system gives you deep filtration without choking airflow the way a too-dense one-inch filter can. It treats every room the system serves, which is the advantage over portable units.</p>
 <h3>Add a portable HEPA unit where it counts</h3>
-<p>A portable HEPA purifier is a smart supplement in bedrooms or a home office — the rooms where you spend long, continuous hours. Match the unit to the room size so it can actually clean the air more than once an hour.</p>
+<p>A portable HEPA purifier is a smart supplement in bedrooms or a home office the rooms where you spend long, continuous hours. Match the unit to the room size so it can actually clean the air more than once an hour.</p>
 
 <h2>Ventilation and sealing: control the air you let in</h2>
 <p>You cannot filter air that bypasses the system. Drafty older homes pull in unfiltered outside air around windows, doors, rim joists, and recessed lights. Sealing those leaks means more of your air goes through the filter and less smog drifts in uncontrolled.</p>
-<p>At the same time, a home that is too tight can trap cooking fumes, moisture, and CO2. The balanced answer for many homes is controlled ventilation — equipment that brings in a measured amount of fresh air and filters it — rather than relying on random leaks. A technician can help you find the right balance for your home and climate.</p>
+<p>At the same time, a home that is too tight can trap cooking fumes, moisture, and CO2. The balanced answer for many homes is controlled ventilation equipment that brings in a measured amount of fresh air and filters it rather than relying on random leaks. A technician can help you find the right balance for your home and climate.</p>
 
 <h2>Humidity: the overlooked half of winter comfort</h2>
 <p>Utah winters are dry, and forced-air heat dries the air further. Very low humidity irritates sinuses, dries out skin, and can make a cold feel worse. A whole-home humidifier integrated with your furnace keeps humidity in a comfortable 30–40% range. Stay in that band: too much humidity invites condensation on cold windows and mold, so a humidifier should be set thoughtfully, not cranked to the max.</p>
@@ -219,7 +219,7 @@ export const POST_CONTENT = {
 </ol>
 
 <h2>Cleaner air without the guesswork</h2>
-<p>Indoor air quality is a system, not a single gadget — filtration, ventilation, and humidity working together. Preventive Home Solutions helps Northern Utah homeowners choose upgrades that fit their existing HVAC, from filter and media-cleaner recommendations to whole-home humidifiers and ventilation, with certified technicians and transparent pricing. If you want a straightforward plan before the next inversion settles in, a quick indoor air quality assessment is a good place to start.</p>
+<p>Indoor air quality is a system, not a single gadget filtration, ventilation, and humidity working together. Preventive Home Solutions helps Northern Utah homeowners choose upgrades that fit their existing HVAC, from filter and media-cleaner recommendations to whole-home humidifiers and ventilation, with certified technicians and transparent pricing. If you want a straightforward plan before the next inversion settles in, a quick indoor air quality assessment is a good place to start.</p>
 `,
   },
 
@@ -228,7 +228,7 @@ export const POST_CONTENT = {
     metaTitle:
       'SEER2 and 2026 HVAC Efficiency Standards Explained for Utah Homeowners | Preventive Home Solutions',
     metaDescription:
-      'SEER2 changed how AC and heat pump efficiency is measured. Here is the plain-English version for Northern Utah homeowners — what the ratings mean and how to shop.',
+      'SEER2 changed how AC and heat pump efficiency is measured. Here is the plain-English version for Northern Utah homeowners what the ratings mean and how to shop.',
     keywords: [
       'SEER2 explained',
       '2026 HVAC efficiency standards',
@@ -252,18 +252,18 @@ export const POST_CONTENT = {
       },
       {
         q: 'Will a high-SEER2 system lower my bills on its own?',
-        a: 'Efficiency only pays off with a correct installation — proper sizing, sealed ducts, and the right refrigerant charge. A premium unit installed poorly can underperform a mid-range unit installed well.',
+        a: 'Efficiency only pays off with a correct installation proper sizing, sealed ducts, and the right refrigerant charge. A premium unit installed poorly can underperform a mid-range unit installed well.',
       },
     ],
     body: `
-<p>Heating and cooling efficiency got a little harder to read in the last couple of years. If you have shopped for an air conditioner or heat pump recently, you have probably seen the term &ldquo;SEER2&rdquo; and wondered whether it is just marketing. It is not — it is a real change in how efficiency is tested and rated. Here is the plain-English version for Northern Utah homeowners.</p>
+<p>Heating and cooling efficiency got a little harder to read in the last couple of years. If you have shopped for an air conditioner or heat pump recently, you have probably seen the term &ldquo;SEER2&rdquo; and wondered whether it is just marketing. It is not it is a real change in how efficiency is tested and rated. Here is the plain-English version for Northern Utah homeowners.</p>
 
 <h2>What SEER and SEER2 actually measure</h2>
-<p>SEER stands for Seasonal Energy Efficiency Ratio. It estimates how much cooling a system delivers over a season for each unit of electricity it uses. A higher number means more cooling per watt — in other words, lower running costs for the same comfort.</p>
+<p>SEER stands for Seasonal Energy Efficiency Ratio. It estimates how much cooling a system delivers over a season for each unit of electricity it uses. A higher number means more cooling per watt in other words, lower running costs for the same comfort.</p>
 <p>SEER2 measures the same idea, but with a stricter test. The newer standard raises the external static pressure used in testing, which is a fancy way of saying it accounts for the real resistance of ducts and filters. Older SEER tests ran in conditions that were easier than most real homes. SEER2 is closer to what your system actually faces in your house.</p>
 
 <h2>Why the numbers look lower now</h2>
-<p>Because SEER2 testing is tougher, the same physical equipment earns a slightly lower number than it did under the old SEER scale. A unit that was &ldquo;15 SEER&rdquo; might be roughly &ldquo;14.3 SEER2.&rdquo; Nothing about the hardware got worse — the ruler changed. This trips up a lot of homeowners comparing old listings to new ones.</p>
+<p>Because SEER2 testing is tougher, the same physical equipment earns a slightly lower number than it did under the old SEER scale. A unit that was &ldquo;15 SEER&rdquo; might be roughly &ldquo;14.3 SEER2.&rdquo; Nothing about the hardware got worse the ruler changed. This trips up a lot of homeowners comparing old listings to new ones.</p>
 <div class="table-wrap">
 <table>
   <thead>
@@ -278,7 +278,7 @@ export const POST_CONTENT = {
 </div>
 
 <h2>What the standards mean for replacing a system</h2>
-<p>Minimum efficiency standards apply to newly manufactured and installed equipment — not to the system already sitting beside your home. You are not required to rip out a working AC. But when it is time to replace, the new unit has to meet the current minimum SEER2 for our region, and split systems also have to be installed correctly to earn their rating.</p>
+<p>Minimum efficiency standards apply to newly manufactured and installed equipment not to the system already sitting beside your home. You are not required to rip out a working AC. But when it is time to replace, the new unit has to meet the current minimum SEER2 for our region, and split systems also have to be installed correctly to earn their rating.</p>
 <p>The practical takeaway: when you replace, you will be choosing among SEER2-rated systems, and the floor is higher than it used to be. That is good for long-term energy costs, but it means comparing quotes on an apples-to-apples basis matters more than ever.</p>
 
 <h2>How to choose the right efficiency level in Northern Utah</h2>
@@ -289,7 +289,7 @@ export const POST_CONTENT = {
   <li><strong>Rebates and incentives:</strong> Utility and manufacturer rebates can meaningfully shrink the cost gap on qualifying high-efficiency systems and heat pumps.</li>
   <li><strong>How long you will stay:</strong> If you plan to be in the home a long time, a higher tier has more years to pay back.</li>
 </ul>
-<p>For many local homes, a solid mid-range high-efficiency system hits the sweet spot — meaningfully lower bills than the bare minimum, without paying for headroom you will rarely use.</p>
+<p>For many local homes, a solid mid-range high-efficiency system hits the sweet spot meaningfully lower bills than the bare minimum, without paying for headroom you will rarely use.</p>
 
 <h2>Why installation quality matters as much as the rating</h2>
 <p>This is the part the spec sheet will not tell you: a high-SEER2 system only delivers its rating when it is installed right. The factors that quietly make or break performance include:</p>
@@ -303,14 +303,14 @@ export const POST_CONTENT = {
 
 <h2>What to avoid</h2>
 <ul>
-  <li><strong>Comparing old SEER numbers to new SEER2 numbers:</strong> They are different scales — make sure every quote uses SEER2.</li>
+  <li><strong>Comparing old SEER numbers to new SEER2 numbers:</strong> They are different scales make sure every quote uses SEER2.</li>
   <li><strong>Buying on the outdoor unit alone:</strong> Ask what indoor coil and blower it is matched with.</li>
   <li><strong>Skipping the load calculation:</strong> &ldquo;Same size as the old one&rdquo; carries over old mistakes.</li>
   <li><strong>Ignoring rebates:</strong> Leaving incentive money on the table can erase the savings of a smart purchase.</li>
 </ul>
 
 <h2>Get a straight answer for your home</h2>
-<p>SEER2 is really just a more honest yardstick. The right efficiency level for you comes down to how you use cooling, your home&rsquo;s ductwork, and the rebates available right now. Preventive Home Solutions helps Northern Utah homeowners compare SEER2 systems with proper load calculations, matched equipment, and transparent pricing — so you buy the efficiency you will actually benefit from and the install lives up to the label. Ask for a replacement assessment before your current system forces the decision in July.</p>
+<p>SEER2 is really just a more honest yardstick. The right efficiency level for you comes down to how you use cooling, your home&rsquo;s ductwork, and the rebates available right now. Preventive Home Solutions helps Northern Utah homeowners compare SEER2 systems with proper load calculations, matched equipment, and transparent pricing so you buy the efficiency you will actually benefit from and the install lives up to the label. Ask for a replacement assessment before your current system forces the decision in July.</p>
 `,
   },
 
@@ -352,11 +352,11 @@ export const POST_CONTENT = {
 
 <h2>How each type works</h2>
 <p>A <strong>traditional tank water heater</strong> keeps 40–80 gallons of water hot and ready around the clock. When you open a hot tap, pre-heated water flows out and the tank refills and reheats. Simple, proven, and inexpensive to install.</p>
-<p>A <strong>tankless (on-demand) water heater</strong> heats water only as it flows through, using a powerful burner or element. There is no stored tank, so it can supply continuous hot water — but only up to a maximum flow rate it can heat at once.</p>
+<p>A <strong>tankless (on-demand) water heater</strong> heats water only as it flows through, using a powerful burner or element. There is no stored tank, so it can supply continuous hot water but only up to a maximum flow rate it can heat at once.</p>
 
 <h2>The cold-climate catch: incoming water temperature</h2>
-<p>This is the detail that matters most in Utah. A tankless unit is rated to raise water temperature a certain amount at a given flow rate. In summer, incoming water might be 60&deg;F and the unit easily reaches a comfortable 120&deg;F. In the depths of winter, incoming water can drop into the 40s, so the unit has to work much harder to reach the same temperature — and its usable flow rate falls.</p>
-<p>The result: a tankless heater that feels generous in July can feel undersized in January if it was not sized for winter conditions. The fix is straightforward — size for the coldest incoming water, not the average — but it has to be done up front. A tank heater is less sensitive here because it stores a reservoir that has already been heated.</p>
+<p>This is the detail that matters most in Utah. A tankless unit is rated to raise water temperature a certain amount at a given flow rate. In summer, incoming water might be 60&deg;F and the unit easily reaches a comfortable 120&deg;F. In the depths of winter, incoming water can drop into the 40s, so the unit has to work much harder to reach the same temperature and its usable flow rate falls.</p>
+<p>The result: a tankless heater that feels generous in July can feel undersized in January if it was not sized for winter conditions. The fix is straightforward size for the coldest incoming water, not the average but it has to be done up front. A tank heater is less sensitive here because it stores a reservoir that has already been heated.</p>
 
 <h2>Side-by-side comparison</h2>
 <div class="table-wrap">
@@ -392,18 +392,18 @@ export const POST_CONTENT = {
 </ul>
 
 <h2>Don&rsquo;t forget Utah&rsquo;s hard water</h2>
-<p>Northern Utah water is mineral-rich, and scale is hard on both types. Sediment collects at the bottom of a tank and reduces efficiency and lifespan; in a tankless unit, scale coats the heat exchanger and can trigger errors or failures. Annual flushing for tanks and regular descaling for tankless units are not optional extras here — they are what keep either system reaching its expected lifespan. A whole-home water softener can extend the life of everything downstream.</p>
+<p>Northern Utah water is mineral-rich, and scale is hard on both types. Sediment collects at the bottom of a tank and reduces efficiency and lifespan; in a tankless unit, scale coats the heat exchanger and can trigger errors or failures. Annual flushing for tanks and regular descaling for tankless units are not optional extras here they are what keep either system reaching its expected lifespan. A whole-home water softener can extend the life of everything downstream.</p>
 
 <h2>What to avoid</h2>
 <ul>
   <li><strong>Sizing tankless on summer numbers:</strong> Insist the calculation uses winter incoming water temperature.</li>
   <li><strong>Skipping maintenance:</strong> Neglecting descaling or flushing shortens lifespan and voids some warranties.</li>
-  <li><strong>Matching the old tank size by habit:</strong> Household hot-water use changes — size for how you actually live now.</li>
+  <li><strong>Matching the old tank size by habit:</strong> Household hot-water use changes size for how you actually live now.</li>
   <li><strong>Ignoring venting and gas capacity:</strong> A tankless conversion sometimes needs upgrades that change the total cost.</li>
 </ul>
 
 <h2>Make the call with confidence</h2>
-<p>There is no universal winner — there is the right unit for your home, your hot-water habits, and a Utah winter. Preventive Home Solutions sizes and installs both tankless and traditional water heaters across Northern Utah, accounting for cold incoming water and our hard water, with transparent pricing and certified technicians. If your current heater is past ten years old or struggling to keep up, a quick assessment will tell you which path actually saves you money over the next decade.</p>
+<p>There is no universal winner there is the right unit for your home, your hot-water habits, and a Utah winter. Preventive Home Solutions sizes and installs both tankless and traditional water heaters across Northern Utah, accounting for cold incoming water and our hard water, with transparent pricing and certified technicians. If your current heater is past ten years old or struggling to keep up, a quick assessment will tell you which path actually saves you money over the next decade.</p>
 `,
   },
 
@@ -412,7 +412,7 @@ export const POST_CONTENT = {
     metaTitle:
       "Utah Hard Water: How It Impacts Your Home's Plumbing and Appliances | Preventive Home Solutions",
     metaDescription:
-      'Northern Utah has some of the hardest water in the country. Learn how mineral scale damages pipes, water heaters and appliances — and how to protect your home.',
+      'Northern Utah has some of the hardest water in the country. Learn how mineral scale damages pipes, water heaters and appliances and how to protect your home.',
     keywords: [
       'Utah hard water',
       'hard water plumbing damage',
@@ -432,7 +432,7 @@ export const POST_CONTENT = {
       },
       {
         q: 'Does a water softener really pay for itself?',
-        a: 'Often, yes. By preventing scale, a softener extends the life of your water heater and appliances, reduces repairs, and cuts soap and detergent use — savings that add up over the years.',
+        a: 'Often, yes. By preventing scale, a softener extends the life of your water heater and appliances, reduces repairs, and cuts soap and detergent use savings that add up over the years.',
       },
       {
         q: 'What are the first signs of hard water damage?',
@@ -440,10 +440,10 @@ export const POST_CONTENT = {
       },
     ],
     body: `
-<p>Northern Utah homeowners get used to a few regional realities: big temperature swings, dry air, and notably hard water. That last one is easy to ignore until it starts quietly costing you money. Hard water is not a health hazard, but over the years it is one of the most expensive things in your home you never see coming — because the damage happens inside pipes, tanks, and appliances.</p>
+<p>Northern Utah homeowners get used to a few regional realities: big temperature swings, dry air, and notably hard water. That last one is easy to ignore until it starts quietly costing you money. Hard water is not a health hazard, but over the years it is one of the most expensive things in your home you never see coming because the damage happens inside pipes, tanks, and appliances.</p>
 
 <h2>What &ldquo;hard&rdquo; water actually means</h2>
-<p>Hard water simply contains a high level of dissolved minerals, mostly calcium and magnesium. As that water is heated or sits in contact with surfaces, the minerals drop out of solution and form a hard, chalky deposit called scale. Much of the Wasatch Front sits in the hard to very hard range, so this is not a fringe problem here — it is the default.</p>
+<p>Hard water simply contains a high level of dissolved minerals, mostly calcium and magnesium. As that water is heated or sits in contact with surfaces, the minerals drop out of solution and form a hard, chalky deposit called scale. Much of the Wasatch Front sits in the hard to very hard range, so this is not a fringe problem here it is the default.</p>
 <p>You can measure your water&rsquo;s hardness in grains per gallon (gpg) with a simple test kit or a professional water test. Knowing your number helps you choose the right solution and set a softener correctly.</p>
 
 <h2>Where hard water does the most damage</h2>
@@ -484,14 +484,14 @@ export const POST_CONTENT = {
 
 <h2>What to avoid</h2>
 <ul>
-  <li><strong>Ignoring early scale:</strong> Buildup compounds — the longer you wait, the more it costs to undo.</li>
+  <li><strong>Ignoring early scale:</strong> Buildup compounds the longer you wait, the more it costs to undo.</li>
   <li><strong>Guessing your hardness:</strong> Set softeners based on a real test, not assumptions.</li>
   <li><strong>Skipping the annual water heater flush:</strong> It is one of the cheapest ways to extend the most expensive plumbing appliance you own.</li>
   <li><strong>Harsh acids on fixtures:</strong> Use a proper descaler; some acids can damage finishes.</li>
 </ul>
 
 <h2>Get ahead of the mineral problem</h2>
-<p>Hard water never causes a single dramatic failure — it quietly shortens the life of everything it touches. The homeowners who come out ahead are the ones who soften the water and keep up with simple maintenance before the water heater starts rumbling. Preventive Home Solutions tests water hardness, sizes and installs water softeners, and services water heaters across Northern Utah with transparent pricing and certified technicians. If your fixtures are crusting over or your hot water bills are creeping up, a water assessment is a smart first step.</p>
+<p>Hard water never causes a single dramatic failure it quietly shortens the life of everything it touches. The homeowners who come out ahead are the ones who soften the water and keep up with simple maintenance before the water heater starts rumbling. Preventive Home Solutions tests water hardness, sizes and installs water softeners, and services water heaters across Northern Utah with transparent pricing and certified technicians. If your fixtures are crusting over or your hot water bills are creeping up, a water assessment is a smart first step.</p>
 `,
   },
 
@@ -520,7 +520,7 @@ export const POST_CONTENT = {
       },
       {
         q: 'Do I need a battery backup sump pump?',
-        a: 'It is strongly recommended. Storms and rapid thaws — the moments you most need the pump — are also when power outages happen. A battery backup keeps the pit clear when the main pump cannot run.',
+        a: 'It is strongly recommended. Storms and rapid thaws the moments you most need the pump are also when power outages happen. A battery backup keeps the pit clear when the main pump cannot run.',
       },
       {
         q: 'Why does my sump pump run constantly?',
@@ -528,12 +528,12 @@ export const POST_CONTENT = {
       },
     ],
     body: `
-<p>The sump pump is the most forgotten appliance in the house — until it fails. It sits quietly in a pit in your basement or crawlspace doing nothing visible for months, then one rainy night or one fast spring thaw it becomes the single piece of equipment standing between you and a flooded basement. That is the paradox of the silent guardian: the better it works, the easier it is to ignore.</p>
+<p>The sump pump is the most forgotten appliance in the house until it fails. It sits quietly in a pit in your basement or crawlspace doing nothing visible for months, then one rainy night or one fast spring thaw it becomes the single piece of equipment standing between you and a flooded basement. That is the paradox of the silent guardian: the better it works, the easier it is to ignore.</p>
 <p>Regular maintenance is what keeps it ready for the moment it actually matters. Here is how the system works, and an honest look at the pros and cons of staying on top of it.</p>
 
 <h2>How a sump pump protects your home</h2>
-<p>Groundwater rises during heavy rain and snowmelt. A drainage system channels that water into a sump pit — a basin set into the lowest point of your basement or crawlspace. When the water in the pit reaches a set level, a float switch turns on the pump, which sends the water out and away from your foundation through a discharge line. When the pit empties, the float drops and the pump shuts off.</p>
-<p>It is a simple system, which is exactly why people assume it will always work. But it has moving parts, a switch, and a power source — all of which can fail at the worst time.</p>
+<p>Groundwater rises during heavy rain and snowmelt. A drainage system channels that water into a sump pit a basin set into the lowest point of your basement or crawlspace. When the water in the pit reaches a set level, a float switch turns on the pump, which sends the water out and away from your foundation through a discharge line. When the pit empties, the float drops and the pump shuts off.</p>
+<p>It is a simple system, which is exactly why people assume it will always work. But it has moving parts, a switch, and a power source all of which can fail at the worst time.</p>
 
 <h2>The pros and cons of regular maintenance</h2>
 <div class="table-wrap">
@@ -564,11 +564,11 @@ export const POST_CONTENT = {
 
 <h2>The upgrades that matter most</h2>
 <h3>Battery backup</h3>
-<p>The cruel timing of sump pumps is that storms and rapid thaws — when the pit fills fastest — are also when the power is most likely to go out. A battery backup pump runs when the main pump cannot, and it is the single most valuable upgrade for most homes.</p>
+<p>The cruel timing of sump pumps is that storms and rapid thaws when the pit fills fastest are also when the power is most likely to go out. A battery backup pump runs when the main pump cannot, and it is the single most valuable upgrade for most homes.</p>
 <h3>Check valve and discharge protection</h3>
 <p>A working check valve stops pumped water from flowing back into the pit, which prevents the pump from cycling endlessly. The discharge line should carry water well away from the foundation and, in our climate, be protected so it does not freeze and block in winter.</p>
 <h3>High-water alarm</h3>
-<p>A simple water alarm in the pit warns you the moment the level rises too high — giving you time to act before the floor is wet.</p>
+<p>A simple water alarm in the pit warns you the moment the level rises too high giving you time to act before the floor is wet.</p>
 
 <h2>What to avoid</h2>
 <ul>
@@ -579,7 +579,7 @@ export const POST_CONTENT = {
 </ul>
 
 <h2>Be ready before the next thaw</h2>
-<p>A sump pump is cheap insurance that only works if it is maintained. A few minutes of testing each season, a battery backup, and a quick professional check before storm and snowmelt season are what separate a dry basement from a disaster. Preventive Home Solutions inspects, services, and installs sump pumps and backup systems across Northern Utah with certified technicians and transparent pricing. If you are not sure when yours was last tested — or whether it has a backup — that is reason enough to have it checked.</p>
+<p>A sump pump is cheap insurance that only works if it is maintained. A few minutes of testing each season, a battery backup, and a quick professional check before storm and snowmelt season are what separate a dry basement from a disaster. Preventive Home Solutions inspects, services, and installs sump pumps and backup systems across Northern Utah with certified technicians and transparent pricing. If you are not sure when yours was last tested or whether it has a backup that is reason enough to have it checked.</p>
 `,
   },
 
@@ -588,7 +588,7 @@ export const POST_CONTENT = {
     metaTitle:
       'Hydro Jetting vs. Snaking: Which Is Best for Your Clogged Drains? | Preventive Home Solutions',
     metaDescription:
-      'Drain snaking or hydro jetting? Compare how each clears clogs, when to use them, costs and risks — so you choose the right method for your Northern Utah drains.',
+      'Drain snaking or hydro jetting? Compare how each clears clogs, when to use them, costs and risks so you choose the right method for your Northern Utah drains.',
     keywords: [
       'hydro jetting vs snaking',
       'drain snake vs hydro jet',
@@ -616,14 +616,14 @@ export const POST_CONTENT = {
       },
     ],
     body: `
-<p>If you have a sink that will not drain or a toilet that keeps backing up, you have two main professional options for clearing the line: drain snaking and hydro jetting. They sound similar — both clear clogs — but they work very differently, and choosing the right one saves you money and repeat visits. Here is how to tell which your situation calls for.</p>
+<p>If you have a sink that will not drain or a toilet that keeps backing up, you have two main professional options for clearing the line: drain snaking and hydro jetting. They sound similar both clear clogs but they work very differently, and choosing the right one saves you money and repeat visits. Here is how to tell which your situation calls for.</p>
 
 <h2>How drain snaking works</h2>
 <p>A drain snake (also called a cable auger) is a long, flexible metal cable fed into the pipe. At the end is a coil or cutting head that spins as it advances. When it reaches the clog, it either breaks it apart or hooks and pulls it back out. Snaking is fast, reliable for many common blockages, and gentle enough for a wide range of pipes.</p>
 <p>The limitation: a snake clears a path <em>through</em> the clog. It punches a hole that gets water flowing again, but it often leaves the grease, soap scum, mineral scale, or root material still coating the pipe walls. That residue becomes the seed of the next clog, which is why some drains seem to back up again a few weeks later.</p>
 
 <h2>How hydro jetting works</h2>
-<p>Hydro jetting uses a specialized hose with a directional nozzle that blasts water through the pipe at very high pressure. The forward jets cut through the blockage while rear-facing jets scour the full inside diameter of the pipe and propel debris downstream. The result is a pipe cleaned close to its original capacity — not just a hole through the middle.</p>
+<p>Hydro jetting uses a specialized hose with a directional nozzle that blasts water through the pipe at very high pressure. The forward jets cut through the blockage while rear-facing jets scour the full inside diameter of the pipe and propel debris downstream. The result is a pipe cleaned close to its original capacity not just a hole through the middle.</p>
 <p>That thoroughness makes hydro jetting the stronger choice for grease buildup, heavy scale, and recurring clogs. Because it cleans the entire pipe wall, the results last much longer.</p>
 
 <h2>Side-by-side comparison</h2>
@@ -635,7 +635,7 @@ export const POST_CONTENT = {
   <tbody>
     <tr><td>How it clears</td><td>Breaks or pulls out the clog</td><td>Scours the full pipe diameter with high-pressure water</td></tr>
     <tr><td>Best for</td><td>Single localized clogs, hair, small obstructions</td><td>Grease, scale, roots, recurring or whole-line clogs</td></tr>
-    <tr><td>How long it lasts</td><td>Shorter — residue remains on walls</td><td>Longer — pipe walls are cleaned</td></tr>
+    <tr><td>How long it lasts</td><td>Shorter residue remains on walls</td><td>Longer pipe walls are cleaned</td></tr>
     <tr><td>Cost per visit</td><td>Lower</td><td>Higher</td></tr>
     <tr><td>Pipe condition needed</td><td>Works on many pipes</td><td>Best after a camera inspection confirms pipes are sound</td></tr>
   </tbody>
@@ -644,7 +644,7 @@ export const POST_CONTENT = {
 
 <h2>When snaking is the right call</h2>
 <ul>
-  <li>A single, recently clogged fixture — one slow sink or tub.</li>
+  <li>A single, recently clogged fixture one slow sink or tub.</li>
   <li>A hair or small-object blockage close to the drain.</li>
   <li>Older or fragile pipes where high pressure could be risky.</li>
   <li>You want a quick, lower-cost clearing for an isolated problem.</li>
@@ -654,24 +654,24 @@ export const POST_CONTENT = {
 <ul>
   <li>Drains that keep clogging no matter how many times they are snaked.</li>
   <li>Kitchen lines packed with grease and food residue.</li>
-  <li>Mineral scale buildup — common with Utah&rsquo;s hard water.</li>
+  <li>Mineral scale buildup common with Utah&rsquo;s hard water.</li>
   <li>Root intrusion in a sewer line (often paired with further treatment).</li>
   <li>A main line you want cleaned to near-full capacity.</li>
 </ul>
 
 <h2>Why a camera inspection comes first</h2>
-<p>The smartest first step for a stubborn or recurring clog is a camera inspection. A small waterproof camera shows exactly what is in the line and what condition the pipe is in. That matters because hydro jetting is powerful — on a pipe that is already cracked, collapsed, or badly corroded, jetting could make things worse. The camera tells the technician whether to jet, snake, or recommend a repair, and it confirms the line is actually clear afterward.</p>
+<p>The smartest first step for a stubborn or recurring clog is a camera inspection. A small waterproof camera shows exactly what is in the line and what condition the pipe is in. That matters because hydro jetting is powerful on a pipe that is already cracked, collapsed, or badly corroded, jetting could make things worse. The camera tells the technician whether to jet, snake, or recommend a repair, and it confirms the line is actually clear afterward.</p>
 
 <h2>What to avoid</h2>
 <ul>
   <li><strong>DIY chemical drain cleaners:</strong> They rarely clear serious clogs, can damage pipes, and create hazards for whoever opens the line next.</li>
   <li><strong>Renting a jetter to do it yourself:</strong> High pressure can injure you and damage pipes without the right training and inspection.</li>
-  <li><strong>Repeatedly snaking the same recurring clog:</strong> If it keeps coming back, the pipe walls need cleaning — that is a jetting job.</li>
+  <li><strong>Repeatedly snaking the same recurring clog:</strong> If it keeps coming back, the pipe walls need cleaning that is a jetting job.</li>
   <li><strong>Jetting blind:</strong> Skipping the camera inspection on old pipes is a gamble.</li>
 </ul>
 
 <h2>Clear it once, the right way</h2>
-<p>Snaking and hydro jetting are tools for different jobs — one clears a single clog quickly, the other restores a whole line and keeps it clear. The right choice depends on what is in the pipe and the pipe&rsquo;s condition, which is why a camera inspection pays for itself. Preventive Home Solutions offers drain cleaning, hydro jetting, and camera inspections across Northern Utah with certified technicians and transparent pricing. If your drains keep backing up, let us find out why instead of clearing the same clog over and over.</p>
+<p>Snaking and hydro jetting are tools for different jobs one clears a single clog quickly, the other restores a whole line and keeps it clear. The right choice depends on what is in the pipe and the pipe&rsquo;s condition, which is why a camera inspection pays for itself. Preventive Home Solutions offers drain cleaning, hydro jetting, and camera inspections across Northern Utah with certified technicians and transparent pricing. If your drains keep backing up, let us find out why instead of clearing the same clog over and over.</p>
 `,
   },
 
@@ -696,7 +696,7 @@ export const POST_CONTENT = {
       },
       {
         q: 'What kind of plunger works best for toilets?',
-        a: 'A flange plunger — the kind with an extended rubber sleeve that fits into the drain opening — seals far better than a flat cup plunger and clears most toilet clogs.',
+        a: 'A flange plunger the kind with an extended rubber sleeve that fits into the drain opening seals far better than a flat cup plunger and clears most toilet clogs.',
       },
       {
         q: 'Are chemical drain cleaners safe for toilets?',
@@ -708,7 +708,7 @@ export const POST_CONTENT = {
       },
     ],
     body: `
-<p>A badly clogged toilet can turn a normal day into a stressful mess within minutes — especially when the water keeps rising toward the rim. The good news is that most clogs clear with the right technique and a little patience, and a few proven steps will get you there without making things worse. Here is how to handle it from the first panic to the final flush.</p>
+<p>A badly clogged toilet can turn a normal day into a stressful mess within minutes especially when the water keeps rising toward the rim. The good news is that most clogs clear with the right technique and a little patience, and a few proven steps will get you there without making things worse. Here is how to handle it from the first panic to the final flush.</p>
 
 <h2>First: stop the water before it overflows</h2>
 <p>If the bowl is filling and threatening to spill, act on the water supply before anything else.</p>
@@ -720,18 +720,18 @@ export const POST_CONTENT = {
 <p>Once the water stops rising, take a breath. Most clogs are easier to clear when you are not racing an overflow.</p>
 
 <h2>Use a flange plunger the right way</h2>
-<p>Technique matters more than muscle. A flange plunger — the type with an extended sleeve that tucks into the drain opening — creates the seal you need.</p>
+<p>Technique matters more than muscle. A flange plunger the type with an extended sleeve that tucks into the drain opening creates the seal you need.</p>
 <ol>
   <li>Make sure there is enough water in the bowl to cover the rubber head. Add a little from a bucket if needed; a plunger works on water, not air.</li>
   <li>Insert the flange into the drain opening and seat it to form a tight seal.</li>
-  <li>Start with a gentle first push to expel trapped air, then plunge with firm, controlled strokes — pulling back is as important as pushing.</li>
+  <li>Start with a gentle first push to expel trapped air, then plunge with firm, controlled strokes pulling back is as important as pushing.</li>
   <li>Keep the seal and work for 15–20 seconds, then check whether the water drains.</li>
   <li>Repeat several cycles. Many stubborn clogs give way after persistence, not force.</li>
 </ol>
 
 <h2>If plunging is not enough</h2>
 <h3>Hot water and dish soap</h3>
-<p>For a soft clog, squirt a generous amount of dish soap into the bowl and let it sit a few minutes to lubricate the blockage. Then add hot — not boiling — water from waist height to add a little flushing force. Boiling water can crack the porcelain, so keep it hot, not scalding.</p>
+<p>For a soft clog, squirt a generous amount of dish soap into the bowl and let it sit a few minutes to lubricate the blockage. Then add hot not boiling water from waist height to add a little flushing force. Boiling water can crack the porcelain, so keep it hot, not scalding.</p>
 <h3>A toilet (closet) auger</h3>
 <p>When a plunger cannot clear it, a toilet auger is the next step. This is a specialized snake with a protective sleeve that will not scratch the bowl. Feed it into the drain, crank to work the head through the clog, then retrieve it. It can reach and break up obstructions a plunger cannot move.</p>
 
@@ -760,7 +760,7 @@ export const POST_CONTENT = {
 </ul>
 
 <h2>When it is more than a clog</h2>
-<p>Some signs point past a simple blockage. If multiple toilets and drains back up at once, water bubbles up in a tub when you flush, or the same toilet clogs again and again, the problem may be deeper in the line — a partial mainline blockage, a venting issue, or tree roots in the sewer. Those will not be fixed by a plunger, and continued attempts can make a mess worse. That is the point to stop and call a professional.</p>
+<p>Some signs point past a simple blockage. If multiple toilets and drains back up at once, water bubbles up in a tub when you flush, or the same toilet clogs again and again, the problem may be deeper in the line a partial mainline blockage, a venting issue, or tree roots in the sewer. Those will not be fixed by a plunger, and continued attempts can make a mess worse. That is the point to stop and call a professional.</p>
 
 <h2>Get it solved without the stress</h2>
 <p>Most toilet clogs clear with a flange plunger and a calm, methodical approach. But a recurring clog or a whole-house backup is a signal worth heeding. Preventive Home Solutions handles toilet repairs, drain clearing, and sewer-line diagnostics across Northern Utah with certified technicians and transparent pricing. If your toilet keeps clogging or the backup involves more than one fixture, we can find the real cause instead of treating the symptom.</p>
@@ -800,14 +800,14 @@ export const POST_CONTENT = {
       },
     ],
     body: `
-<p>Sewer problems can disrupt your home and your daily routine. When a sewer line fails — from age, corrosion, shifting soil, or tree roots — the old solution was to dig a long trench across your yard, replace the pipe, and then spend more money putting your landscaping back together. Trenchless sewer repair offers a way to fix the line with little or no digging. It is worth understanding the real pros and cons before you choose.</p>
+<p>Sewer problems can disrupt your home and your daily routine. When a sewer line fails from age, corrosion, shifting soil, or tree roots the old solution was to dig a long trench across your yard, replace the pipe, and then spend more money putting your landscaping back together. Trenchless sewer repair offers a way to fix the line with little or no digging. It is worth understanding the real pros and cons before you choose.</p>
 
 <h2>What &ldquo;trenchless&rdquo; actually means</h2>
 <p>Trenchless repair fixes or replaces a sewer line through one or two small access points instead of excavating the entire run. There are two main methods, and the right one depends on the pipe&rsquo;s condition.</p>
 <h3>Pipe lining (cured-in-place pipe, or CIPP)</h3>
 <p>A flexible, resin-saturated liner is inserted into the existing pipe and inflated against the walls. The resin cures in place, forming a smooth, jointless new pipe inside the old one. This works when the original pipe is still structurally present but cracked, leaking, or root-infiltrated.</p>
 <h3>Pipe bursting</h3>
-<p>A cone-shaped bursting head is pulled through the old pipe, breaking it outward while simultaneously pulling a new pipe into the same path. This is used when the existing pipe is too damaged or collapsed to line — it effectively replaces the pipe without trenching its full length.</p>
+<p>A cone-shaped bursting head is pulled through the old pipe, breaking it outward while simultaneously pulling a new pipe into the same path. This is used when the existing pipe is too damaged or collapsed to line it effectively replaces the pipe without trenching its full length.</p>
 
 <h2>The pros and cons at a glance</h2>
 <div class="table-wrap">
@@ -816,9 +816,9 @@ export const POST_CONTENT = {
     <tr><th>Pros</th><th>Cons</th></tr>
   </thead>
   <tbody>
-    <tr><td>Little to no digging — preserves landscaping, driveways, patios</td><td>Higher equipment/material cost per foot than basic digging</td></tr>
-    <tr><td>Usually faster — often completed in a day or two</td><td>Not suitable for fully collapsed or severely misaligned pipes</td></tr>
-    <tr><td>Durable — modern liners and burst pipes last 50+ years</td><td>Requires suitable access points and pipe path</td></tr>
+    <tr><td>Little to no digging preserves landscaping, driveways, patios</td><td>Higher equipment/material cost per foot than basic digging</td></tr>
+    <tr><td>Usually faster often completed in a day or two</td><td>Not suitable for fully collapsed or severely misaligned pipes</td></tr>
+    <tr><td>Durable modern liners and burst pipes last 50+ years</td><td>Requires suitable access points and pipe path</td></tr>
     <tr><td>Smooth, jointless interior resists future root intrusion</td><td>Needs a camera inspection to confirm it is a candidate</td></tr>
     <tr><td>Less restoration cost afterward</td><td>Fewer contractors are equipped for it than for excavation</td></tr>
   </tbody>
@@ -830,7 +830,7 @@ export const POST_CONTENT = {
   <li>The line runs under a finished driveway, mature landscaping, a patio, or concrete you would rather not tear up.</li>
   <li>The pipe is cracked, leaking, or root-infiltrated but not fully collapsed (a lining candidate).</li>
   <li>You want a long-term fix with minimal disruption and downtime.</li>
-  <li>Tree roots keep returning — a smooth, jointless liner gives them nothing to enter.</li>
+  <li>Tree roots keep returning a smooth, jointless liner gives them nothing to enter.</li>
 </ul>
 
 <h2>When traditional excavation still makes sense</h2>
@@ -839,10 +839,10 @@ export const POST_CONTENT = {
   <li>The line needs to be re-graded or rerouted, not just renewed.</li>
   <li>Access conditions or local requirements make trenchless impractical.</li>
 </ul>
-<p>This is not a knock on trenchless — it is why a proper diagnosis matters. The goal is the method that actually solves your problem and lasts, not the trendiest one.</p>
+<p>This is not a knock on trenchless it is why a proper diagnosis matters. The goal is the method that actually solves your problem and lasts, not the trendiest one.</p>
 
 <h2>Why a camera inspection decides the method</h2>
-<p>Every good sewer repair starts the same way: a camera inspection. A waterproof camera is fed down the line to reveal exactly where the damage is, how bad it is, and whether the pipe can be lined, needs bursting, or truly requires excavation. It also locates root intrusions, bellies (low spots), and offsets. Without that picture, choosing a repair method is guesswork — and sewer work is too expensive to guess.</p>
+<p>Every good sewer repair starts the same way: a camera inspection. A waterproof camera is fed down the line to reveal exactly where the damage is, how bad it is, and whether the pipe can be lined, needs bursting, or truly requires excavation. It also locates root intrusions, bellies (low spots), and offsets. Without that picture, choosing a repair method is guesswork and sewer work is too expensive to guess.</p>
 
 <h2>What to avoid</h2>
 <ul>
@@ -853,7 +853,7 @@ export const POST_CONTENT = {
 </ul>
 
 <h2>Fix the line, keep your yard</h2>
-<p>Trenchless sewer repair has made a once-dreaded project far less disruptive — but only when it is the right tool for the pipe in front of you. The smart move is a camera inspection that tells you exactly what you are dealing with, followed by an honest recommendation. Preventive Home Solutions provides sewer camera inspections and sewer repair across Northern Utah with certified technicians and transparent pricing. If your drains keep backing up or you suspect a failing line, we can show you what is happening underground and lay out your real options.</p>
+<p>Trenchless sewer repair has made a once-dreaded project far less disruptive but only when it is the right tool for the pipe in front of you. The smart move is a camera inspection that tells you exactly what you are dealing with, followed by an honest recommendation. Preventive Home Solutions provides sewer camera inspections and sewer repair across Northern Utah with certified technicians and transparent pricing. If your drains keep backing up or you suspect a failing line, we can show you what is happening underground and lay out your real options.</p>
 `,
   },
 
@@ -862,7 +862,7 @@ export const POST_CONTENT = {
     metaTitle:
       'Keep Your Plumbing in Tip-Top Shape Year-Round | Preventive Home Solutions',
     metaDescription:
-      'A season-by-season plumbing maintenance checklist for Northern Utah homeowners — protect pipes from freezing, prevent leaks, and avoid emergency repairs all year.',
+      'A season-by-season plumbing maintenance checklist for Northern Utah homeowners protect pipes from freezing, prevent leaks, and avoid emergency repairs all year.',
     keywords: [
       'plumbing maintenance checklist',
       'seasonal plumbing tips',
@@ -878,7 +878,7 @@ export const POST_CONTENT = {
       },
       {
         q: 'What is the most important winter plumbing task in Utah?',
-        a: 'Protecting pipes from freezing — disconnect and drain outdoor hoses, shut off and drain exterior faucets, and insulate exposed pipes in garages, crawlspaces, and exterior walls.',
+        a: 'Protecting pipes from freezing disconnect and drain outdoor hoses, shut off and drain exterior faucets, and insulate exposed pipes in garages, crawlspaces, and exterior walls.',
       },
       {
         q: 'How do I know if I have a hidden leak?',
@@ -890,10 +890,10 @@ export const POST_CONTENT = {
       },
     ],
     body: `
-<p>Keep your home in top condition year-round with a simple plumbing routine. The plumbing system is easy to take for granted — until a frozen pipe or a hidden leak forces the issue. The homeowners who avoid emergency calls are not lucky; they do a little maintenance each season. Here is a practical, Northern-Utah-specific checklist you can actually keep up with.</p>
+<p>Keep your home in top condition year-round with a simple plumbing routine. The plumbing system is easy to take for granted until a frozen pipe or a hidden leak forces the issue. The homeowners who avoid emergency calls are not lucky; they do a little maintenance each season. Here is a practical, Northern-Utah-specific checklist you can actually keep up with.</p>
 
 <h2>Why seasonal plumbing care pays off</h2>
-<p>Our climate is hard on plumbing. Cold winters threaten exposed pipes, hard water leaves scale in everything it touches, and big temperature swings stress fittings and seals. Most plumbing emergencies start as small, fixable problems — a slow drip, a sweating valve, a water heater that is overdue for a flush. Catching them early is the difference between a quick fix and a midnight shut-off.</p>
+<p>Our climate is hard on plumbing. Cold winters threaten exposed pipes, hard water leaves scale in everything it touches, and big temperature swings stress fittings and seals. Most plumbing emergencies start as small, fixable problems a slow drip, a sweating valve, a water heater that is overdue for a flush. Catching them early is the difference between a quick fix and a midnight shut-off.</p>
 
 <h2>Season-by-season checklist</h2>
 <div class="table-wrap">
@@ -913,7 +913,7 @@ export const POST_CONTENT = {
 <h2>Fall: get ahead of the freeze</h2>
 <p>Fall is the most important plumbing season in Utah because what you do now prevents winter disasters.</p>
 <ul>
-  <li>Disconnect garden hoses and drain them — a connected hose can trap water that freezes and bursts the faucet or the pipe behind it.</li>
+  <li>Disconnect garden hoses and drain them a connected hose can trap water that freezes and bursts the faucet or the pipe behind it.</li>
   <li>Shut off and drain exterior hose bibs, or close their interior shut-offs if they have them.</li>
   <li>Insulate pipes in unheated areas: garages, crawlspaces, and along exterior walls.</li>
   <li>Have the water heater serviced before the cold months pile on demand.</li>
@@ -922,7 +922,7 @@ export const POST_CONTENT = {
 <h2>Winter: protect against frozen pipes</h2>
 <p>A frozen pipe is the classic Utah plumbing emergency. The water inside expands as it freezes and can split the pipe, then floods the moment it thaws.</p>
 <ul>
-  <li>Keep your home at a steady temperature, even when away — do not let it drop too low to save a few dollars.</li>
+  <li>Keep your home at a steady temperature, even when away do not let it drop too low to save a few dollars.</li>
   <li>During extreme cold, let a faucet drip slightly; moving water resists freezing.</li>
   <li>Open cabinet doors under sinks on exterior walls so warm air reaches the pipes.</li>
   <li>Make sure everyone in the home knows where the main shut-off is and how to turn it.</li>
@@ -933,13 +933,13 @@ export const POST_CONTENT = {
 <ol>
   <li>Walk the house looking for damp spots, corrosion, or drips under sinks and around the water heater.</li>
   <li>Test the sump pump before spring snowmelt by pouring water into the pit.</li>
-  <li>Inspect the braided supply lines to the washing machine, toilets, and dishwasher — replace any that are bulging or corroded.</li>
+  <li>Inspect the braided supply lines to the washing machine, toilets, and dishwasher replace any that are bulging or corroded.</li>
   <li>Flush the water heater to clear the sediment that Utah&rsquo;s hard water leaves behind.</li>
   <li>Clean faucet aerators and showerheads of mineral buildup to restore flow.</li>
 </ol>
 
 <h2>Catching hidden leaks early</h2>
-<p>Not every leak announces itself. Watch for a water bill that climbs for no reason, the faint sound of running water when everything is off, musty smells, or warm spots on the floor (a sign of a hot-water slab leak). A simple test: turn off every fixture and check the water meter — if it is still moving, water is going somewhere it should not.</p>
+<p>Not every leak announces itself. Watch for a water bill that climbs for no reason, the faint sound of running water when everything is off, musty smells, or warm spots on the floor (a sign of a hot-water slab leak). A simple test: turn off every fixture and check the water meter if it is still moving, water is going somewhere it should not.</p>
 
 <h2>What to avoid</h2>
 <ul>
@@ -950,7 +950,7 @@ export const POST_CONTENT = {
 </ul>
 
 <h2>Make it a routine, not a scramble</h2>
-<p>A year-round rhythm of small checks keeps your plumbing reliable and your repair bills low. If you would rather not track it all yourself, a maintenance plan turns seasonal upkeep into a scheduled routine. Preventive Home Solutions provides plumbing inspections, water heater service, and seasonal maintenance across Northern Utah with certified technicians and transparent pricing — catching weak valves, aging supply lines, and early leaks before they become emergencies.</p>
+<p>A year-round rhythm of small checks keeps your plumbing reliable and your repair bills low. If you would rather not track it all yourself, a maintenance plan turns seasonal upkeep into a scheduled routine. Preventive Home Solutions provides plumbing inspections, water heater service, and seasonal maintenance across Northern Utah with certified technicians and transparent pricing catching weak valves, aging supply lines, and early leaks before they become emergencies.</p>
 `,
   },
 
@@ -975,7 +975,7 @@ export const POST_CONTENT = {
       },
       {
         q: 'What is the most common cause of deck failure?',
-        a: 'Trapped moisture leading to rot — especially where the deck attaches to the house (the ledger board) and at post bases. Most serious deck failures trace back to water and corroded or loose connections.',
+        a: 'Trapped moisture leading to rot especially where the deck attaches to the house (the ledger board) and at post bases. Most serious deck failures trace back to water and corroded or loose connections.',
       },
       {
         q: 'Can I pressure wash my deck?',
@@ -983,14 +983,14 @@ export const POST_CONTENT = {
       },
       {
         q: 'When should I have a deck professionally inspected?',
-        a: 'Have it inspected if you notice soft or spongy boards, wobble or sway, rusted fasteners, or rot near the ledger or posts — anything affecting the structure rather than just the surface.',
+        a: 'Have it inspected if you notice soft or spongy boards, wobble or sway, rusted fasteners, or rot near the ledger or posts anything affecting the structure rather than just the surface.',
       },
     ],
     body: `
-<p>Keep your home in top condition year-round, and that includes the deck. A deck lives a hard life in Northern Utah: blazing summer sun, heavy winter snow load, and constant freeze-thaw cycles that work moisture into every crack. Left alone, even a well-built deck weathers fast. With a simple seasonal routine, the same deck can last decades. The difference is maintenance — small, regular care that prevents the costly repairs.</p>
+<p>Keep your home in top condition year-round, and that includes the deck. A deck lives a hard life in Northern Utah: blazing summer sun, heavy winter snow load, and constant freeze-thaw cycles that work moisture into every crack. Left alone, even a well-built deck weathers fast. With a simple seasonal routine, the same deck can last decades. The difference is maintenance small, regular care that prevents the costly repairs.</p>
 
 <h2>Why Utah&rsquo;s climate is so hard on decks</h2>
-<p>Three forces do most of the damage here. <strong>UV exposure</strong> from our high-altitude sun breaks down wood fibers and fades finishes. <strong>Moisture</strong> from snow and rain soaks into unsealed boards. And the <strong>freeze-thaw cycle</strong> — water seeping into the wood, freezing, expanding, and thawing over and over — pries boards apart and accelerates rot. Sealing and regular care are what stand between your deck and that cycle.</p>
+<p>Three forces do most of the damage here. <strong>UV exposure</strong> from our high-altitude sun breaks down wood fibers and fades finishes. <strong>Moisture</strong> from snow and rain soaks into unsealed boards. And the <strong>freeze-thaw cycle</strong> water seeping into the wood, freezing, expanding, and thawing over and over pries boards apart and accelerates rot. Sealing and regular care are what stand between your deck and that cycle.</p>
 
 <h2>The seasonal deck routine</h2>
 <div class="table-wrap">
@@ -1012,21 +1012,21 @@ export const POST_CONTENT = {
 <ol>
   <li>Sweep the surface and clear out the gaps between boards where debris collects and blocks drainage.</li>
   <li>Apply a deck cleaner suited to your wood and scrub with a stiff brush.</li>
-  <li>If you pressure wash, use low pressure and a wide tip held well back — high pressure splinters and gouges the wood.</li>
+  <li>If you pressure wash, use low pressure and a wide tip held well back high pressure splinters and gouges the wood.</li>
   <li>Let the deck dry fully before sealing or staining.</li>
 </ol>
 
 <h2>Sealing and staining: the protective layer</h2>
-<p>A good water-repellent sealer or stain is the single most important thing you can do for a wood deck. It keeps moisture out, which is the root of nearly every deck problem. Test whether yours needs it: sprinkle water on the boards. If it beads up, the seal is intact. If it soaks in and darkens the wood, it is time to reseal — usually every one to three years in our climate. Stain adds UV protection and color but follows the same logic: protect the wood before it weathers, not after.</p>
+<p>A good water-repellent sealer or stain is the single most important thing you can do for a wood deck. It keeps moisture out, which is the root of nearly every deck problem. Test whether yours needs it: sprinkle water on the boards. If it beads up, the seal is intact. If it soaks in and darkens the wood, it is time to reseal usually every one to three years in our climate. Stain adds UV protection and color but follows the same logic: protect the wood before it weathers, not after.</p>
 
 <h2>Inspect the structure, not just the surface</h2>
 <p>A beautiful finish on a failing frame is dangerous. During your spring check, look past the boards:</p>
 <ul>
-  <li><strong>The ledger board</strong> where the deck attaches to the house — this connection is the most safety-critical part of the deck and a common rot point. Look for water staining, soft wood, and secure flashing.</li>
-  <li><strong>Posts and footings</strong> — check post bases for rot and movement, especially where they meet concrete or soil.</li>
-  <li><strong>Fasteners and connectors</strong> — tighten loose screws, and look for rusted or corroded hardware that has lost its grip.</li>
-  <li><strong>Railings and stairs</strong> — push and wobble-test them; a loose railing is a fall hazard.</li>
-  <li><strong>Soft or spongy boards</strong> — press suspicious spots; sponginess means rot underneath.</li>
+  <li><strong>The ledger board</strong> where the deck attaches to the house this connection is the most safety-critical part of the deck and a common rot point. Look for water staining, soft wood, and secure flashing.</li>
+  <li><strong>Posts and footings</strong> check post bases for rot and movement, especially where they meet concrete or soil.</li>
+  <li><strong>Fasteners and connectors</strong> tighten loose screws, and look for rusted or corroded hardware that has lost its grip.</li>
+  <li><strong>Railings and stairs</strong> push and wobble-test them; a loose railing is a fall hazard.</li>
+  <li><strong>Soft or spongy boards</strong> press suspicious spots; sponginess means rot underneath.</li>
 </ul>
 
 <h2>What to avoid</h2>
@@ -1039,7 +1039,7 @@ export const POST_CONTENT = {
 </ul>
 
 <h2>A little care, many more years</h2>
-<p>Regular deck maintenance is not about constant work — it is a clean, an inspection, and a reseal on a predictable schedule. Done consistently, it prevents the rot and structural damage that force expensive rebuilds, and it keeps the deck safe for the people using it. If you would rather fold deck and exterior upkeep into a broader home-care routine, Preventive Home Solutions helps Northern Utah homeowners stay ahead of seasonal maintenance with transparent pricing and a proactive, prevention-first approach.</p>
+<p>Regular deck maintenance is not about constant work it is a clean, an inspection, and a reseal on a predictable schedule. Done consistently, it prevents the rot and structural damage that force expensive rebuilds, and it keeps the deck safe for the people using it. If you would rather fold deck and exterior upkeep into a broader home-care routine, Preventive Home Solutions helps Northern Utah homeowners stay ahead of seasonal maintenance with transparent pricing and a proactive, prevention-first approach.</p>
 `,
   },
 
@@ -1048,7 +1048,7 @@ export const POST_CONTENT = {
     metaTitle:
       'Home Maintenance Tips for Every Season | Preventive Home Solutions',
     metaDescription:
-      'A season-by-season home maintenance checklist for Northern Utah — plumbing, heating, cooling and exterior tasks that prevent costly repairs and keep your home efficient.',
+      'A season-by-season home maintenance checklist for Northern Utah plumbing, heating, cooling and exterior tasks that prevent costly repairs and keep your home efficient.',
     keywords: [
       'seasonal home maintenance checklist',
       'home maintenance tips',
@@ -1064,7 +1064,7 @@ export const POST_CONTENT = {
       },
       {
         q: 'How often should HVAC systems be serviced?',
-        a: 'Twice a year is ideal — heating in the fall and cooling in the spring — so each system is tuned and inspected before the season it has to work hardest.',
+        a: 'Twice a year is ideal heating in the fall and cooling in the spring so each system is tuned and inspected before the season it has to work hardest.',
       },
       {
         q: 'Is a maintenance plan worth it?',
@@ -1076,7 +1076,7 @@ export const POST_CONTENT = {
       },
     ],
     body: `
-<p>Keep your home in top condition year-round with a simple seasonal rhythm. A house is a collection of systems — plumbing, heating, cooling, and the exterior shell — and each one has a season when it works hardest. Maintenance is just the habit of getting each system ready before its tough season arrives. Do that, and you trade expensive surprises for predictable, low-cost upkeep. Here is the year laid out for Northern Utah homes.</p>
+<p>Keep your home in top condition year-round with a simple seasonal rhythm. A house is a collection of systems plumbing, heating, cooling, and the exterior shell and each one has a season when it works hardest. Maintenance is just the habit of getting each system ready before its tough season arrives. Do that, and you trade expensive surprises for predictable, low-cost upkeep. Here is the year laid out for Northern Utah homes.</p>
 
 <h2>The whole year at a glance</h2>
 <div class="table-wrap">
@@ -1106,7 +1106,7 @@ export const POST_CONTENT = {
 <h2>Summer: keep cool and protect the exterior</h2>
 <p>With cooling running daily, focus on efficiency and the parts of the home the sun punishes.</p>
 <ul>
-  <li>Change HVAC filters on schedule — a clogged filter strains the system and raises bills.</li>
+  <li>Change HVAC filters on schedule a clogged filter strains the system and raises bills.</li>
   <li>Check water pressure and look for outdoor and irrigation leaks.</li>
   <li>Flush the water heater to clear hard-water sediment.</li>
   <li>Inspect, clean, and reseal the deck and exterior wood if needed.</li>
@@ -1116,10 +1116,10 @@ export const POST_CONTENT = {
 <h2>Fall: the most important season in Utah</h2>
 <p>Fall maintenance prevents the winter emergencies that cost the most. Treat it as your priority season.</p>
 <ol>
-  <li>Have the furnace professionally serviced before the cold sets in — this is the single most valuable fall task.</li>
+  <li>Have the furnace professionally serviced before the cold sets in this is the single most valuable fall task.</li>
   <li>Winterize plumbing: disconnect hoses, drain exterior faucets, and insulate exposed pipes.</li>
   <li>Seal drafts around windows and doors to cut heating costs.</li>
-  <li>Test smoke and carbon monoxide detectors — heating season is when CO risk is highest.</li>
+  <li>Test smoke and carbon monoxide detectors heating season is when CO risk is highest.</li>
   <li>Clean gutters again after the leaves fall so winter melt can drain.</li>
 </ol>
 
@@ -1128,12 +1128,12 @@ export const POST_CONTENT = {
 <ul>
   <li>Keep the home at a steady temperature; let faucets drip in extreme cold to prevent frozen pipes.</li>
   <li>Know where your main water shut-off is in case a pipe does burst.</li>
-  <li>Keep changing HVAC filters — the furnace is working overtime.</li>
+  <li>Keep changing HVAC filters the furnace is working overtime.</li>
   <li>Remove snow load from decks and watch for ice dams on the roof.</li>
 </ul>
 
 <h2>The systems worth never skipping</h2>
-<p>If you only keep up with a few things, make them these: <strong>service heating and cooling twice a year</strong> (fall and spring), <strong>change your filters</strong> on schedule, <strong>winterize plumbing</strong> every fall, and <strong>flush your water heater</strong> yearly. Those four habits protect your most expensive systems and head off the most common — and most preventable — emergencies.</p>
+<p>If you only keep up with a few things, make them these: <strong>service heating and cooling twice a year</strong> (fall and spring), <strong>change your filters</strong> on schedule, <strong>winterize plumbing</strong> every fall, and <strong>flush your water heater</strong> yearly. Those four habits protect your most expensive systems and head off the most common and most preventable emergencies.</p>
 
 <h2>What to avoid</h2>
 <ul>
@@ -1144,7 +1144,7 @@ export const POST_CONTENT = {
 </ul>
 
 <h2>Let the calendar do the worrying</h2>
-<p>A home runs best on a routine, not a rescue. Mapping maintenance to the seasons keeps every system ready for its hardest months and keeps surprises rare. If you would rather not track all of it yourself, a maintenance plan turns the whole calendar into a scheduled service. Preventive Home Solutions handles plumbing, heating, and cooling maintenance across Northern Utah with certified technicians, transparent pricing, and a prevention-first approach — so your home stays comfortable and efficient in every season.</p>
+<p>A home runs best on a routine, not a rescue. Mapping maintenance to the seasons keeps every system ready for its hardest months and keeps surprises rare. If you would rather not track all of it yourself, a maintenance plan turns the whole calendar into a scheduled service. Preventive Home Solutions handles plumbing, heating, and cooling maintenance across Northern Utah with certified technicians, transparent pricing, and a prevention-first approach so your home stays comfortable and efficient in every season.</p>
 `,
   },
 }

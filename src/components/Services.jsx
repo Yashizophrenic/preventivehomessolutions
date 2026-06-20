@@ -48,7 +48,7 @@ export default function Services() {
       <div className="relative mx-auto max-w-[1200px] px-6">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           
-          {/* Image card — moved to the right on desktop. Slideshow of the
+          {/* Image card moved to the right on desktop. Slideshow of the
               three service-card photos. */}
           <div className="lg:col-span-5 relative lg:order-last">
             <Reveal variant="right" className="relative w-full">

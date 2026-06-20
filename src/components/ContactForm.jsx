@@ -6,12 +6,38 @@ const inputClass =
 
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false)
+  const [submitting, setSubmitting] = useState(false)
+  const [error, setError] = useState(null)
   const [service, setService] = useState('')
   const [dropdownOpen, setDropdownOpen] = useState(false)
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
-    setSubmitted(true)
+    setSubmitting(true)
+    setError(null)
+    
+    const formData = new FormData(e.target)
+    formData.append('access_key', import.meta.env.VITE_WEB3FORMS_ACCESS_KEY || 'YOUR_WEB3FORMS_ACCESS_KEY_HERE')
+    formData.append('section', 'Received from Contact/Scheduling section')
+    formData.append('business_address', '688 S Main St, Layton, UT 84041, United States')
+    formData.append('subject', 'New Quote Request from Preventive Home Solutions')
+
+    try {
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData
+      })
+      const data = await res.json()
+      if (data.success) {
+        setSubmitted(true)
+      } else {
+        setError(data.message || 'Something went wrong')
+      }
+    } catch (err) {
+      setError('Network error, please try again.')
+    } finally {
+      setSubmitting(false)
+    }
   }
 
   return (
@@ -33,14 +59,14 @@ export default function ContactForm() {
                   className="relative w-full [transform-style:preserve-3d]"
                   style={{ animation: 'phs-shield-flip 8s linear infinite' }}
                 >
-                  {/* Extruded body — darkened slices stepped through the depth */}
+                  {/* Extruded body darkened slices stepped through the depth */}
                   {Array.from({ length: 16 }).map((_, i) => {
                     const z = -8 + i // -8px .. 7px
                     const shade = 0.4 + (i / 15) * 0.35 // darker at the back, lighter toward the front
                     return (
                       <img
                         key={i}
-                        src="/ready to book.png"
+                        src="/Shield tagline.png"
                         alt=""
                         aria-hidden="true"
                         className="absolute inset-0 w-full h-auto object-contain"
@@ -48,16 +74,16 @@ export default function ContactForm() {
                       />
                     )
                   })}
-                  {/* Front face — full brightness, in normal flow so it sizes the card */}
+                  {/* Front face full brightness, in normal flow so it sizes the card */}
                   <img
-                    src="/ready to book.png"
+                    src="/Shield tagline.png"
                     alt="Ready to Book"
                     className="relative w-full h-auto object-contain drop-shadow-2xl [backface-visibility:hidden]"
                     style={{ transform: 'translateZ(8px)' }}
                   />
-                  {/* Back face — same image, flipped so it reads correctly from behind */}
+                  {/* Back face same image, flipped so it reads correctly from behind */}
                   <img
-                    src="/ready to book.png"
+                    src="/Shield tagline.png"
                     alt=""
                     aria-hidden="true"
                     className="absolute inset-0 w-full h-auto object-contain drop-shadow-2xl [backface-visibility:hidden]"
@@ -130,6 +156,7 @@ export default function ContactForm() {
                     <input
                       className={inputClass}
                       type="text"
+                      name="name"
                       placeholder="Your name"
                       required
                     />
@@ -138,6 +165,7 @@ export default function ContactForm() {
                     <input
                       className={inputClass}
                       type="tel"
+                      name="phone"
                       placeholder="Phone number"
                       required
                     />
@@ -177,12 +205,14 @@ export default function ContactForm() {
                       )}
                     </div>
 
+                    {error && <p className="text-red-500 text-sm text-center font-bold">{error}</p>}
                     {/* Submit Button */}
                     <button
                       type="submit"
-                      className="cta-diag cta-diag-orange w-full rounded-xl bg-phsOrange text-white py-4 px-6 font-bold text-[15px] shadow-sm hover:shadow active:scale-98 tracking-wider"
+                      disabled={submitting}
+                      className="cta-diag cta-diag-orange w-full rounded-xl bg-phsOrange text-white py-4 px-6 font-bold text-[15px] shadow-sm hover:shadow active:scale-98 tracking-wider disabled:opacity-70 disabled:cursor-not-allowed"
                     >
-                      Request Free Quote
+                      {submitting ? 'Sending Request...' : 'Request Free Quote'}
                     </button>
 
                   </form>

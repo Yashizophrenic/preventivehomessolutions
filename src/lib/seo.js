@@ -61,7 +61,7 @@ export function useSeo({ title, description, path, image = '/logo.svg', jsonLd }
     upsertMeta('meta[name="twitter:description"]', 'name', 'twitter:description', description)
     upsertMeta('meta[name="twitter:image"]', 'name', 'twitter:image', ogImage)
 
-    // JSON-LD structured data — removed on unmount so each page owns its own.
+    // JSON-LD structured data removed on unmount so each page owns its own.
     let script
     if (jsonLd) {
       script = document.createElement('script')

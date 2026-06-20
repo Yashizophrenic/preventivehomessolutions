@@ -132,7 +132,7 @@ export default function Header() {
   )
 
   // The full-width dropdown panel (services / areas grid). Rendered under
-  // whichever bar is active — the full header or the compact sticky nav.
+  // whichever bar is active the full header or the compact sticky nav.
   const renderMegaMenu = () => (
     <div
       className={`absolute inset-x-0 top-full border-t border-phsSky/10 bg-phsCream shadow-xl transition-all duration-200 ease-out ${

@@ -109,7 +109,7 @@ export default function AreasWeServe() {
                   referrerPolicy="no-referrer-when-downgrade"
                   allowFullScreen
                 />
-                {/* Theme tint overlays — keep map readable while matching site palette */}
+                {/* Theme tint overlays keep map readable while matching site palette */}
                 <div className="pointer-events-none absolute inset-0 bg-phsSky/10 mix-blend-multiply" />
                 <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-phsSky/20" />
                 <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-phsOrange/20" />

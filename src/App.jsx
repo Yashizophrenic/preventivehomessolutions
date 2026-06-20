@@ -38,7 +38,7 @@ export default function App() {
   const path = usePath()
 
   // Loading screen: shown on first load and on every route change, hidden once
-  // the new page's images have actually finished loading — so its duration
+  // the new page's images have actually finished loading so its duration
   // tracks real load speed (with a min so it doesn't flash, and a max so a slow
   // asset can never leave it stuck).
   useEffect(() => {
@@ -111,7 +111,7 @@ function Home() {
 
       {/* Shared band: CtaBanner + Process + About */}
       <div className="relative bg-phsSky">
-        {/* Animated strands background — fixed in the middle of the viewport while
+        {/* Animated strands background fixed in the middle of the viewport while
             scrolling through the band, and only shown while the band is centered. */}
         <BandStrands
           colors={['#f97316', '#000000', '#3b82f6']}

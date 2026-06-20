@@ -33,7 +33,7 @@ function ClockIcon({ className = '' }) {
   )
 }
 
-/* Orange L-brackets that frame an element — reused from the brand's photo
+/* Orange L-brackets that frame an element reused from the brand's photo
    framing so the blog feels part of the same "guard" system. */
 function CornerBrackets() {
   return (
@@ -81,14 +81,14 @@ export default function BlogPage() {
 
   // SEO: per-page meta + Blog structured data listing every article.
   useSeo({
-    title: 'Field Notes — Plumbing, HVAC & Home Maintenance Blog | Preventive Home Solutions',
+    title: 'Field Notes Plumbing, HVAC & Home Maintenance Blog | Preventive Home Solutions',
     description:
       'Expert plumbing, heating, cooling and home-maintenance advice for Northern Utah homeowners. Real tips from the licensed techs at Preventive Home Solutions.',
     path: '/blog',
     jsonLd: {
       '@context': 'https://schema.org',
       '@type': 'Blog',
-      name: `${SITE_NAME} — Field Notes`,
+      name: `${SITE_NAME} Field Notes`,
       description:
         'Plumbing, HVAC and home-maintenance advice for Northern Utah homeowners from Preventive Home Solutions.',
       url: `${ORIGIN}/blog`,
@@ -148,7 +148,7 @@ export default function BlogPage() {
           </Reveal>
 
           <Reveal as="p" delay={250} className="mx-auto mt-6 max-w-2xl text-[15px] leading-relaxed text-white/90 sm:text-base">
-            Straight-from-the-truck advice on plumbing, heating, cooling, and seasonal upkeep — written by the licensed
+            Straight-from-the-truck advice on plumbing, heating, cooling, and seasonal upkeep written by the licensed
             techs who protect Northern Utah homes every day.
           </Reveal>
         </div>
@@ -284,7 +284,7 @@ export default function BlogPage() {
               Spotted a problem in one of these articles at your place?
             </h2>
             <p className="mt-3 max-w-xl text-[15px] leading-relaxed text-white/75">
-              Our licensed techs are a phone call away — same-week service across Northern Utah.
+              Our licensed techs are a phone call away same-week service across Northern Utah.
             </p>
           </div>
           <div className="flex shrink-0 flex-col gap-3 sm:flex-row">

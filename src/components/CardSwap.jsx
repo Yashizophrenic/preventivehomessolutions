@@ -78,14 +78,16 @@ const CardSwap = ({
       if (order.current.length < 2) return;
 
       const [front, ...rest] = order.current;
+      order.current = [...rest, front];
       const elFront = refs[front].current;
       const tl = gsap.timeline();
       tlRef.current = tl;
 
       tl.to(elFront, {
-        y: '+=500',
+        y: 500,
         duration: config.durDrop,
-        ease: config.ease
+        ease: config.ease,
+        overwrite: 'auto'
       });
 
       tl.addLabel('promote', `-=${config.durDrop * config.promoteOverlap}`);
@@ -100,7 +102,8 @@ const CardSwap = ({
             y: slot.y,
             z: slot.z,
             duration: config.durMove,
-            ease: config.ease
+            ease: config.ease,
+            overwrite: 'auto'
           },
           `promote+=${i * 0.15}`
         );
@@ -122,14 +125,11 @@ const CardSwap = ({
           y: backSlot.y,
           z: backSlot.z,
           duration: config.durReturn,
-          ease: config.ease
+          ease: config.ease,
+          overwrite: 'auto'
         },
         'return'
       );
-
-      tl.call(() => {
-        order.current = [...rest, front];
-      });
     };
 
     swap();

@@ -3,11 +3,11 @@
 // list here so both stay in sync.
 //
 // NOTE: images for posts beyond the first three reuse the available blog
-// artwork as placeholders — swap `image` for real per-article photos when the
+// artwork as placeholders swap `image` for real per-article photos when the
 // client provides them.
 //
 // When the client supplies real article content, add a long-form `body` and
-// `keywords` per post — those feed the SEO meta + structured data on the
+// `keywords` per post those feed the SEO meta + structured data on the
 // (future) /blog/:slug article pages.
 export const BLOG_AUTHOR = 'PHS Field Team'
 
@@ -67,7 +67,7 @@ export const BLOG_POSTS = [
     category: 'PLUMBING',
     title: 'The Silent Guardian: The Pros And Cons Of Sump Pump Maintenance',
     excerpt:
-      'Sewer problems can disrupt your home and your daily routine. The sump pump is the most forgotten appliance in the house — until it fails.',
+      'Sewer problems can disrupt your home and your daily routine. The sump pump is the most forgotten appliance in the house until it fails.',
     date: 'DECEMBER 13, 2025',
     readTime: '5 min read',
     image: '/plumbing_blog.png',

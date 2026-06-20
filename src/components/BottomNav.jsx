@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { SERVICE_GROUPS, SERVICE_AREAS, PHONE_TEL } from '../data/nav.js'
 
-/* Icons — stroke based, inherit color via currentColor. */
+/* Icons stroke based, inherit color via currentColor. */
 function HomeIcon({ className = '' }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
