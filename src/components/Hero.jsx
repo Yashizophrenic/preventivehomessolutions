@@ -17,9 +17,9 @@ const SERVICES = ['Plumbing', 'Heating', 'Cooling', 'Maintenance', 'Other']
 
 // Mirrors the "Why Choose" benefits, surfaced as quick bullets under the rating.
 const WHY_CHOOSE_POINTS = [
-  'Family-Owned & Local',
-  'Fast & Reliable Response',
-  'Preventive Home Protection',
+  { text: 'Family-Owned & Local', icon: '/Group 18.svg' },
+  { text: 'Fast & Reliable Response', icon: '/Group 19.svg', iconClass: '-translate-x-[3px]' },
+  { text: 'Preventive Home Protection', icon: '/Group 20.svg' },
 ]
 
 function ArrowIcon({ className = '' }) {
@@ -350,15 +350,16 @@ export default function Hero() {
             <ul className="flex flex-col gap-3.5">
               {WHY_CHOOSE_POINTS.map((point) => (
                 <li
-                  key={point}
+                  key={point.text}
                   className="flex items-center gap-3 font-sans text-[clamp(16.8px,5.04vw,19.2px)] font-semibold text-phsInk"
                 >
-                  <span className="flex h-[1.8rem] w-[1.8rem] shrink-0 items-center justify-center rounded-full bg-phsOrange/15 text-phsOrange">
-                    <svg className="h-[1.05rem] w-[1.05rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="m5 12.5 4.5 4.5L19 7" />
-                    </svg>
-                  </span>
-                  {point}
+                  <img
+                    src={point.icon}
+                    alt=""
+                    aria-hidden="true"
+                    className={`h-[1.8rem] w-[1.8rem] shrink-0 object-contain ${point.iconClass || ''}`}
+                  />
+                  {point.text}
                 </li>
               ))}
             </ul>

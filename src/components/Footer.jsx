@@ -59,7 +59,7 @@ const contactInfo = [
 function LinkColumn({ title, items }) {
   return (
     <div>
-      <h3 className="font-display font-black text-sm tracking-[0.2em] text-white mb-6 [-webkit-text-stroke:0.6px_currentColor] hover:text-phsOrange transition-colors duration-300">
+      <h3 className="font-display font-black text-sm tracking-[0.2em] text-white mb-6 [-webkit-text-stroke:0.6px_currentColor] hover:text-white transition-colors duration-300">
         {title}
       </h3>
       <ul className="space-y-3.5">
@@ -67,7 +67,7 @@ function LinkColumn({ title, items }) {
           <li key={item.label}>
             <a
               href={item.href}
-              className="group/link inline-flex items-center gap-2 text-[14px] text-gray-300 hover:text-phsOrange hover:[text-shadow:0_0_10px_rgba(243,116,27,0.85)] transition-all duration-300"
+              className="group/link inline-flex items-center gap-2 text-[14px] text-gray-300 hover:text-white hover:font-bold transition-all duration-300"
             >
               <ChevronRight />
               <span>{item.label}</span>
@@ -99,46 +99,43 @@ export default function Footer() {
                 alt="Preventive Home Solutions"
                 className="h-28 w-auto shrink-0"
               />
-              <span className="min-w-0 font-display text-base font-black tracking-[0.16em] leading-tight text-white hover:text-phsOrange transition-colors duration-300">
+              <span className="min-w-0 font-display text-base font-black tracking-[0.16em] leading-tight text-white hover:text-white transition-colors duration-300">
                 Preventive<br />
                 Home<br />
                 Solutions
               </span>
             </div>
-            <p className="mt-6 text-[14px] leading-relaxed text-gray-300 font-sans hover:text-phsOrange transition-colors duration-300">
+            <p className="mt-6 text-[14px] leading-relaxed text-gray-300 font-sans">
               Fix It. Prevent It. Protect It. Expert plumbing, heating, and cooling services built on trust and standard.
             </p>
 
             {/* Social Icons */}
-            <div className="flex items-center gap-3.5 mt-6">
-              <a 
-                href="#" 
+            <div className="flex items-center gap-4 mt-6">
+              <a
+                href="#"
                 aria-label="Facebook"
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/5 border border-white/10 text-gray-300 hover:text-phsOrange hover:border-phsOrange hover:bg-phsOrange/10 transition-all duration-300"
+                className="flex items-center justify-center text-white hover:scale-110 transition-transform duration-300"
               >
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4.5 w-4.5">
-                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                <svg viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                 </svg>
               </a>
-              <a 
-                href="#" 
+              <a
+                href="#"
                 aria-label="Instagram"
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/5 border border-white/10 text-gray-300 hover:text-phsOrange hover:border-phsOrange hover:bg-phsOrange/10 transition-all duration-300"
+                className="flex items-center justify-center text-white hover:scale-110 transition-transform duration-300"
               >
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4.5 w-4.5">
-                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                <svg viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
                 </svg>
               </a>
-              <a 
-                href="#" 
+              <a
+                href="#"
                 aria-label="Twitter/X"
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/5 border border-white/10 text-gray-300 hover:text-phsOrange hover:border-phsOrange hover:bg-phsOrange/10 transition-all duration-300"
+                className="flex items-center justify-center text-white hover:scale-110 transition-transform duration-300"
               >
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4.5 w-4.5">
-                  <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
-                  <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                <svg viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                 </svg>
               </a>
             </div>
@@ -150,13 +147,13 @@ export default function Footer() {
           </div>
 
           {/* Our Services Column (Hidden on Mobile) */}
-          <div className="hidden min-w-0 sm:block">
+          <div className="hidden min-w-0 sm:block -ml-4">
             <LinkColumn title="Our Services" items={services} />
           </div>
 
           {/* Contact Info Column */}
           <div className="min-w-0">
-            <h3 className="font-display font-black text-sm tracking-[0.2em] text-white mb-6 [-webkit-text-stroke:0.6px_currentColor] hover:text-phsOrange transition-colors duration-300">
+            <h3 className="font-display font-black text-sm tracking-[0.2em] text-white mb-6 [-webkit-text-stroke:0.6px_currentColor] hover:text-white transition-colors duration-300">
               Contact Info
             </h3>
             <ul className="space-y-4">
@@ -164,11 +161,11 @@ export default function Footer() {
                 <li key={i} className="flex items-start gap-3.5 text-[14px] text-gray-300">
                   <info.Icon />
                   {info.href ? (
-                    <a href={info.href} className="min-w-0 break-words hover:text-phsOrange transition-colors duration-200">
+                    <a href={info.href} className="min-w-0 break-words hover:text-white hover:font-bold transition-all duration-200">
                       {info.text}
                     </a>
                   ) : (
-                    <span className="min-w-0 break-words hover:text-phsOrange transition-colors duration-200">{info.text}</span>
+                    <span className="min-w-0 break-words hover:text-white hover:font-bold transition-all duration-200">{info.text}</span>
                   )}
                 </li>
               ))}
@@ -178,7 +175,7 @@ export default function Footer() {
         </div>
 
         {/* Accessibility Note */}
-        <p className="mt-16 text-center text-[12px] text-white max-w-2xl mx-auto leading-relaxed border-t border-white/5 pt-8 font-sans hover:text-phsOrange transition-colors duration-300">
+        <p className="mt-16 text-center text-[12px] text-white max-w-2xl mx-auto leading-relaxed border-t border-white/5 pt-8 font-sans">
           Preventive Home Solutions is committed to keeping our site accessible to everyone. We welcome feedback on ways to improve this site's accessibility.
         </p>
       </div>
@@ -186,13 +183,13 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-white/10 bg-black/10">
         <div className="mx-auto flex max-w-[1400px] flex-col items-center justify-between gap-4 px-6 pt-6 pb-28 lg:pb-6 text-[13px] text-white md:flex-row font-mono font-medium">
-          <p className="text-center md:text-left hover:text-phsOrange transition-colors duration-300">
+          <p className="text-center md:text-left">
             Copyright © {new Date().getFullYear()}, Preventive Home Solutions. All Rights Reserved.
           </p>
           <nav className="flex items-center gap-6">
-            <a href="#" className="hover:text-phsOrange transition-colors duration-300">Privacy Policy</a>
-            <a href="#" className="hover:text-phsOrange transition-colors duration-300">Terms &amp; Conditions</a>
-            <a href="#" className="hover:text-phsOrange transition-colors duration-300">Sitemap</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms &amp; Conditions</a>
+            <a href="#">Sitemap</a>
           </nav>
         </div>
       </div>
